@@ -7,7 +7,7 @@ Reproducible multi-seed implementation for:
 
 Repository: <https://github.com/miuanmiu/sam2-building-dg>
 Checkpoints: <https://github.com/miuanmiu/sam2-building-dg/releases/tag/v1.0-checkpoints>
-Anonymous review mirror: _TODO_ (add the anonymous.4open.science link)
+Anonymous review mirror: <https://anonymous.4open.science/r/sam2-building-dg-A242/>
 
 All methods fine-tune the SAM 2 tiny image encoder with a lightweight FPN
 segmentation head on 512x512 RGB patches. Training-only augmentations:
