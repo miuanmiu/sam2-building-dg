@@ -1,11 +1,3 @@
-﻿"""SAM2 寰皟璁粌锛氫簩鍊煎缓绛戠墿鎻愬彇銆?
-鍦?SAM2 棰勮缁?image encoder 杈撳嚭鐨勫灏哄害鐗瑰緛涓婃帴涓€涓交閲?FPN 鍒嗗壊澶达紝
-鐢?WHU 澶氬煄甯傚垏鐗囪缁冿紝璇勪及鏃跺湪鍗曠嫭鍩庡競涓婃姤鍛?IoU/F1銆?
-鐗圭偣锛?  - 榛樿鍐荤粨 SAM2 缂栫爜鍣紝鍙缁冨垎鍓插ご锛堟樉瀛樺弸濂姐€佺ǔ瀹氾級锛?    鍔?--finetune-encoder 鍚庡悓鏃跺井璋?image encoder锛堜笂闄愭洿楂橈紝鏄惧瓨鍗犵敤鏇村ぇ锛夈€?  - 鏀寔 Ctrl+C 瀹夊叏鍋滄锛屾柇鐐圭画璁敤 --resume锛堢画璁椂瑕佹眰 --num-workers 0锛夈€?
-鐢ㄦ硶绀轰緥锛?  python src/train_sam2_building.py
-  python src/train_sam2_building.py --finetune-encoder --batch-size 1
-  python src/train_sam2_building.py --resume checkpoints\resume_sam2_whu_tiny.pth --num-workers 0
-"""
 
 import argparse
 import csv
@@ -53,8 +45,6 @@ STD = [0.229, 0.224, 0.225]
 
 
 class TileDataset(Dataset):
-    """鎸?manifest CSV 璇诲彇 512脳512 鍒囩墖涓庢帺鐮併€?""
-
     def __init__(
         self,
         manifest_path: Path,
@@ -88,12 +78,12 @@ class TileDataset(Dataset):
             if not (Path(r["image_path"]).exists() and Path(r["mask_path"]).exists())
         ]
         if missing:
-            print(f"璀﹀憡锛氳烦杩?{len(missing)} 涓枃浠朵笉瀛樺湪鐨勬牱鏈紙渚嬪 {missing[0]['tile_name']}锛?)
             rows = [r for r in rows if r not in missing]
         if not rows:
-            raise RuntimeError(f"娓呭崟涓病鏈夊彲鐢ㄦ牱鏈細{self.manifest_path}")
-        self.rows = rows
 
+
+
+            pass
     def __len__(self) -> int:
         return len(self.rows)
 
@@ -105,7 +95,8 @@ class TileDataset(Dataset):
         mask = torch.from_numpy(mask).unsqueeze(0)        # [1,H,W]
         if self.augment:
             if self.augment_level == "bsm":
-                # BSM锛欸A锛堝嚑浣曪級涓?CA锛堥鑹诧級鍚勮嚜浠?p=0.5 瑙﹀彂锛堣鏂?Fig.5锛?                if random.random() < 0.5:
+                # BSMA?CA?p=0.5 ?Fig.5?
+                if random.random() < 0.5:
                     image, mask = bsm_geometric_augment(image, mask)
                 if random.random() < 0.5:
                     image = bsm_color_augment(image)
@@ -139,8 +130,6 @@ class TileDataset(Dataset):
 
 
 class FPNHead(nn.Module):
-    """杞婚噺 FPN 鍒嗗壊澶达細澶氬昂搴︾壒寰佽瀺鍚堝悗杈撳嚭 1 閫氶亾 logits銆?""
-
     def __init__(self, in_channels: list[int], hidden: int = 128) -> None:
         super().__init__()
         self.lateral = nn.ModuleList(
@@ -169,8 +158,6 @@ class FPNHead(nn.Module):
 
 
 class SAM2Segmentor(nn.Module):
-    """SAM2 image encoder + FPN 鍒嗗壊澶淬€?""
-
     def __init__(self, model_name: str = "tiny", finetune_encoder: bool = False) -> None:
         super().__init__()
         cfg, ckpt = MODEL_CFG[model_name]
@@ -263,7 +250,7 @@ def evaluate(model: nn.Module, data_loader: DataLoader, device: torch.device) ->
     model.eval()
     tp = fp = fn = 0
     per_city: dict[str, list[float]] = {}
-    for images, masks, names, cities in tqdm(data_loader, desc="璇勪及", unit="鎵?):
+    for images, masks, names, cities in tqdm(data_loader, desc="eval"):
         images = images.to(device)
         masks = masks.to(device)
         with torch.autocast(device_type="cuda", dtype=torch.float16):
@@ -294,44 +281,41 @@ def evaluate(model: nn.Module, data_loader: DataLoader, device: torch.device) ->
 
 
 def parse_arguments() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="SAM2 寰皟璁粌锛圵HU 寤虹瓚鐗╂彁鍙栵級")
+    parser = argparse.ArgumentParser(description="SAM2 fine-tuning with BSM on WHU tiles")
     parser.add_argument("--manifest-path", type=Path, default=DEFAULT_TRAIN_MANIFEST)
     parser.add_argument("--eval-manifest-path", type=Path, default=DEFAULT_EVAL_MANIFEST)
     parser.add_argument("--eval-split", type=str, default="test")
-    parser.add_argument("--eval-max", type=int, default=1000, help="璇勪及鍩庡競鏈€澶氭娊澶氬皯寮?)
-    parser.add_argument("--train-max-per-city", type=int, default=1000, help="璁粌闆嗘瘡鍩庡競鏈€澶氭娊澶氬皯寮?)
+    parser.add_argument("--eval-max", type=int, default=1000)
+    parser.add_argument("--train-max-per-city", type=int, default=1000)
     parser.add_argument("--model", choices=list(MODEL_CFG), default="tiny")
     parser.add_argument("--epochs", type=int, default=10)
     parser.add_argument("--batch-size", type=int, default=2)
-    parser.add_argument("--learning-rate", type=float, default=3e-4, help="鍒嗗壊澶村涔犵巼")
-    parser.add_argument("--encoder-lr", type=float, default=1e-5, help="寰皟缂栫爜鍣ㄦ椂鐨勫涔犵巼")
+    parser.add_argument("--learning-rate", type=float, default=3e-4)
+    parser.add_argument("--encoder-lr", type=float, default=1e-5)
     parser.add_argument("--weight-decay", type=float, default=0.01)
     parser.add_argument("--num-workers", type=int, default=4)
-    parser.add_argument("--finetune-encoder", action="store_true", help="鍚屾椂寰皟 SAM2 image encoder")
-    parser.add_argument("--seed", type=int, default=42, help="闅忔満绉嶅瓙锛堥粯璁?42锛?)
-    parser.add_argument("--ckpt-dir", type=Path, default=None,
-                        help="妫€鏌ョ偣淇濆瓨鐩綍锛堥粯璁わ細椤圭洰 checkpoints 鐩綍锛?)
-    parser.add_argument("--augmentation", choices=["basic", "strong", "bsm"], default="basic",
-                        help="鏁版嵁澧炲己绾у埆锛歜asic=缈昏浆/鏃嬭浆90锛泂trong=鍐嶅姞浠垮皠+棰滆壊鎶栧姩锛沚sm=澶嶇幇 WHU-Mix 璁烘枃 BSM锛圙A+CA+AdaIN 椋庢牸娣峰悎锛?)
-    parser.add_argument("--bsm-weights-dir", type=Path, default=PROJECT_ROOT / "checkpoints" / "adain_weights",
-                        help="pytorch-AdaIN 棰勮缁冩潈閲嶇洰褰曪紙闇€鍚?vgg_normalised.pth 涓?decoder.pth锛?)
-    parser.add_argument("--bsm-size", type=int, default=512, help="BSM 椋庢牸娣峰悎鍒嗚鲸鐜囷紙璁烘枃鐢?512锛涙樉瀛樼揣寮犲彲璋冨皬锛?)
-    parser.add_argument("--bsm-alpha", type=float, default=0.5, help="BSM 椋庢牸娣峰悎绯绘暟锛堣鏂?0.5锛?)
-    parser.add_argument("--bsm-prob", type=float, default=0.5, help="BSM 椋庢牸娣峰悎瑙﹀彂姒傜巼锛堣鏂?0.5锛?)
+    parser.add_argument("--finetune-encoder", action="store_true")
+    parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--ckpt-dir", type=Path, default=None)
+    parser.add_argument("--augmentation", choices=["basic", "strong", "bsm"], default="basic")
+    parser.add_argument("--bsm-weights-dir", type=Path,
+                        default=PROJECT_ROOT / "checkpoints" / "adain_weights")
+    parser.add_argument("--bsm-size", type=int, default=512)
+    parser.add_argument("--bsm-alpha", type=float, default=0.5)
+    parser.add_argument("--bsm-prob", type=float, default=0.5)
     parser.add_argument("--run-name", type=str, default="sam2_whu_tiny")
     parser.add_argument("--resume", type=Path, default=None)
     parser.add_argument("--save-every-batches", type=int, default=200)
-    parser.add_argument("--max-train-batches", type=int, default=None, help="姣忚疆鏈€澶氳缁冩壒娆℃暟锛堝揩閫熸祴璇曠敤锛?)
-    parser.add_argument("--eval-every", type=int, default=1, help="姣忓灏戣疆璇勪及涓€娆?)
+    parser.add_argument("--max-train-batches", type=int, default=None)
+    parser.add_argument("--eval-every", type=int, default=1)
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_arguments()
     global SEED
     SEED = args.seed
     if args.resume is not None and args.num_workers != 0:
-        raise ValueError("鏂偣缁瑕佹眰 --num-workers 0锛堜繚璇佹壒娆￠『搴忎竴鑷达級銆?)
+        raise ValueError("error")
 
     random.seed(SEED)
     np.random.seed(SEED)
@@ -341,7 +325,7 @@ def main() -> None:
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if device.type != "cuda":
-        raise RuntimeError("SAM2 寰皟闇€瑕?CUDA銆?)
+        raise RuntimeError("error")
 
     resume_path = args.resume
     ckpt_root = args.ckpt_dir if args.ckpt_dir else PROJECT_ROOT / "checkpoints"
@@ -352,25 +336,17 @@ def main() -> None:
     eval_summary_path = PROJECT_ROOT / "outputs" / f"{args.run_name}_final_eval.txt"
 
     print("=" * 50)
-    print(f"SAM2 寰皟璁粌锛坽args.model}锛?)
     print("=" * 50)
-    print("璁粌娓呭崟锛?, args.manifest_path)
-    print("璇勪及娓呭崟锛?, args.eval_manifest_path, f"(split={args.eval_split}, max={args.eval_max})")
-    print("妯″瀷锛?, args.model, "| 寰皟缂栫爜鍣細", args.finetune_encoder)
-    print("澧炲己锛?, args.augmentation, "| 杞暟锛?, args.epochs, "| batch锛?, args.batch_size, "| workers锛?, args.num_workers)
     if args.augmentation == "bsm":
-        print("BSM锛歴ize=", args.bsm_size, "alpha=", args.bsm_alpha, "prob=", args.bsm_prob, "weights=", args.bsm_weights_dir)
-    train_dataset = TileDataset(
+
         args.manifest_path, max_per_city=args.train_max_per_city,
-        augment=True, augment_level=args.augmentation,
-    )
+
+
     eval_dataset = TileDataset(args.eval_manifest_path, split=args.eval_split, max_per_city=args.eval_max)
-    print(f"璁粌鏍锋湰锛歿len(train_dataset)} | 璇勪及鏍锋湰锛歿len(eval_dataset)}")
-    for label, ds in (("璁粌鎸夊煄甯?, train_dataset), ("璇勪及鎸夊煄甯?, eval_dataset)):
+    for label, ds in (("train", train_dataset), ("eval", eval_dataset)):
         counts = {}
         for r in ds.rows:
             counts[r["city"]] = counts.get(r["city"], 0) + 1
-        print(label + "锛?, ", ".join(f"{c}={n}" for c, n in sorted(counts.items())))
 
     model = SAM2Segmentor(model_name=args.model, finetune_encoder=args.finetune_encoder)
     model.to(device)
@@ -378,7 +354,6 @@ def main() -> None:
     bsm_net = None
     if args.augmentation == "bsm":
         bsm_net = BSMStyleTransfer(args.bsm_weights_dir, device=device)
-        print("BSM 椋庢牸杞Щ缃戠粶宸插姞杞斤細", args.bsm_weights_dir)
 
     head_params = list(model.head.parameters())
     encoder_params = [p for p in model.sam2.parameters() if p.requires_grad]
@@ -413,13 +388,11 @@ def main() -> None:
                 best_iou_from_file = best_state.get("metrics", {}).get("iou", 0.0)
                 best_val_iou = max(best_val_iou, best_iou_from_file)
             except Exception as exc:
-                print(f"璀﹀憡锛氳鍙栨渶浣虫ā鍨嬩俊鎭け璐ワ紙{exc}锛夛紝娌跨敤鏂偣涓殑 best IoU")
-        print(f"宸蹭粠鏂偣鎭㈠锛歟poch={start_epoch} batch={next_batch} best_iou={best_val_iou:.4f}")
 
-    n_trainable = sum(p.numel() for p in model.parameters() if p.requires_grad)
-    print(f"鍙缁冨弬鏁帮細{n_trainable / 1e6:.2f}M")
 
-    history_rows: list[dict] = []
+
+
+                pass
     if history_path.exists():
         with history_path.open("r", encoding="utf-8-sig", newline="") as f:
             history_rows = list(csv.DictReader(f))
@@ -429,7 +402,6 @@ def main() -> None:
     def on_interrupt(signum, frame):
         nonlocal interrupted
         interrupted = True
-        print("\n鏀跺埌涓柇淇″彿锛屾鍦ㄤ繚瀛樻柇鐐?..")
 
     signal.signal(signal.SIGINT, on_interrupt)
     start_time = time.time()
@@ -447,7 +419,7 @@ def main() -> None:
             )
             epoch_loss_sum = 0.0
             epoch_sample_count = 0
-            progress = tqdm(loader, desc=f"Epoch {epoch + 1}/{args.epochs}", unit="鎵?)
+            progress = tqdm(loader, desc="epoch")
 
             for batch_idx, (images, masks, _, _) in enumerate(progress):
                 if resume_path is not None and batch_idx < next_batch:
@@ -487,13 +459,13 @@ def main() -> None:
                 if interrupted:
                     break
 
-            # 鏈疆缁撴潫锛屽厛淇濆瓨鏂偣锛堜笅娆′粠涓嬩竴杞紑濮嬶級
+            # 
             save_resume_checkpoint(
                 checkpoint_path, epoch + 1, 0, global_step,
                 epoch_loss_sum, epoch_sample_count, best_val_iou,
                 model, optimizer, scaler, args,
             )
-            resume_path = checkpoint_path  # 涔嬪悗涓柇涔熷厑璁告仮澶?
+            resume_path = checkpoint_path
             train_loss = epoch_loss_sum / max(epoch_sample_count, 1)
             row = {
                 "epoch": epoch + 1,
@@ -535,10 +507,9 @@ def main() -> None:
                         },
                         best_path,
                     )
-                    print(f"鏂扮殑鏈€浣?IoU锛歿best_val_iou:.4f} -> {best_path}")
             else:
-                print(f"Epoch {epoch + 1}: loss={train_loss:.4f}锛堟湰杞笉璇勪及锛?)
 
+                pass
             history_rows.append(row)
             history_path.parent.mkdir(parents=True, exist_ok=True)
             with history_path.open("w", encoding="utf-8-sig", newline="") as f:
@@ -547,32 +518,29 @@ def main() -> None:
                 writer.writerows(history_rows)
 
             if interrupted:
-                print("璁粌宸蹭腑鏂紝鏂偣宸蹭繚瀛樸€?)
                 break
 
     finally:
         signal.signal(signal.SIGINT, signal.SIG_DFL)
 
-    # 鏈€缁堣瘎浼?    eval_loader = DataLoader(
+    eval_loader = DataLoader(
         eval_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0
     )
     metrics = evaluate(model, eval_loader, device)
-    lines = ["=" * 50, f"SAM2 ({args.model}) WHU 鏈€缁堣瘎浼?, "=" * 50]
-    lines.append(f"娴嬭瘯闆? {args.eval_manifest_path} (split={args.eval_split}, max={args.eval_max})")
+    lines = []
+    lines.append("")
     lines.append(f"IoU:      {metrics['iou']:.4f}")
     lines.append(f"F1:       {metrics['f1']:.4f}")
     lines.append(f"Precision:{metrics['precision']:.4f}")
     lines.append(f"Recall:   {metrics['recall']:.4f}")
     lines.append(f"TP={metrics['tp']} FP={metrics['fp']} FN={metrics['fn']}")
-    lines.append("\n--- 鎸夊煄甯?---")
+    lines.append("")
     for c, v in sorted(metrics["per_city"].items()):
         lines.append(f"  {c:<16} {v:.4f}")
     report = "\n".join(lines)
     print(report)
     eval_summary_path.parent.mkdir(parents=True, exist_ok=True)
     eval_summary_path.write_text(report, encoding="utf-8")
-    print(f"\n鏈€缁堣瘎浼版姤鍛婏細{eval_summary_path}")
-    print(f"鏈€浣虫ā鍨嬶細{best_path}")
 
 
 if __name__ == "__main__":
