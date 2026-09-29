@@ -1,0 +1,498 @@
+split,city,source_name,tile_name,row,column,x_start,y_start,valid_width,valid_height,building_ratio,image_path,mask_path
+train,dunedin,whu_mix,dunedin_578.tif,0,0,0,0,512,512,0.06871796,data/raw/WHU_Mix_cities/dunedin/image/dunedin_578.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_578.tif
+train,dunedin,whu_mix,dunedin_1136.tif,0,0,0,0,512,512,0.17655182,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1136.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1136.tif
+train,dunedin,whu_mix,dunedin_1025.tif,0,0,0,0,512,512,0.28620911,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1025.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1025.tif
+train,dunedin,whu_mix,dunedin_708.tif,0,0,0,0,512,512,0.21843719,data/raw/WHU_Mix_cities/dunedin/image/dunedin_708.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_708.tif
+train,dunedin,whu_mix,dunedin_146.tif,0,0,0,0,512,512,0.14795303,data/raw/WHU_Mix_cities/dunedin/image/dunedin_146.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_146.tif
+train,dunedin,whu_mix,dunedin_129.tif,0,0,0,0,512,512,0.06193542,data/raw/WHU_Mix_cities/dunedin/image/dunedin_129.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_129.tif
+train,dunedin,whu_mix,dunedin_1266.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1266.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1266.tif
+train,dunedin,whu_mix,dunedin_1168.tif,0,0,0,0,512,512,0.32680130,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1168.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1168.tif
+train,dunedin,whu_mix,dunedin_700.tif,0,0,0,0,512,512,0.31870270,data/raw/WHU_Mix_cities/dunedin/image/dunedin_700.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_700.tif
+train,dunedin,whu_mix,dunedin_1121.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1121.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1121.tif
+train,dunedin,whu_mix,dunedin_621.tif,0,0,0,0,512,512,0.46396255,data/raw/WHU_Mix_cities/dunedin/image/dunedin_621.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_621.tif
+train,dunedin,whu_mix,dunedin_706.tif,0,0,0,0,512,512,0.24558258,data/raw/WHU_Mix_cities/dunedin/image/dunedin_706.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_706.tif
+train,dunedin,whu_mix,dunedin_897.tif,0,0,0,0,512,512,0.17604828,data/raw/WHU_Mix_cities/dunedin/image/dunedin_897.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_897.tif
+train,dunedin,whu_mix,dunedin_464.tif,0,0,0,0,512,512,0.20018768,data/raw/WHU_Mix_cities/dunedin/image/dunedin_464.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_464.tif
+train,dunedin,whu_mix,dunedin_1100.tif,0,0,0,0,512,512,0.25934601,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1100.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1100.tif
+train,dunedin,whu_mix,dunedin_520.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_520.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_520.tif
+train,dunedin,whu_mix,dunedin_321.tif,0,0,0,0,512,512,0.27239227,data/raw/WHU_Mix_cities/dunedin/image/dunedin_321.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_321.tif
+train,dunedin,whu_mix,dunedin_1032.tif,0,0,0,0,512,512,0.25654984,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1032.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1032.tif
+train,dunedin,whu_mix,dunedin_1030.tif,0,0,0,0,512,512,0.23925018,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1030.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1030.tif
+train,dunedin,whu_mix,dunedin_1109.tif,0,0,0,0,512,512,0.27983475,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1109.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1109.tif
+train,dunedin,whu_mix,dunedin_1260.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1260.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1260.tif
+train,dunedin,whu_mix,dunedin_1275.tif,0,0,0,0,512,512,0.20385361,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1275.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1275.tif
+train,dunedin,whu_mix,dunedin_416.tif,0,0,0,0,512,512,0.10009384,data/raw/WHU_Mix_cities/dunedin/image/dunedin_416.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_416.tif
+train,dunedin,whu_mix,dunedin_533.tif,0,0,0,0,512,512,0.14395142,data/raw/WHU_Mix_cities/dunedin/image/dunedin_533.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_533.tif
+train,dunedin,whu_mix,dunedin_1027.tif,0,0,0,0,512,512,0.25475311,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1027.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1027.tif
+train,dunedin,whu_mix,dunedin_486.tif,0,0,0,0,512,512,0.10918427,data/raw/WHU_Mix_cities/dunedin/image/dunedin_486.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_486.tif
+train,dunedin,whu_mix,dunedin_1234.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1234.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1234.tif
+train,dunedin,whu_mix,dunedin_675.tif,0,0,0,0,512,512,0.02352142,data/raw/WHU_Mix_cities/dunedin/image/dunedin_675.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_675.tif
+train,dunedin,whu_mix,dunedin_589.tif,0,0,0,0,512,512,0.29316711,data/raw/WHU_Mix_cities/dunedin/image/dunedin_589.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_589.tif
+train,dunedin,whu_mix,dunedin_654.tif,0,0,0,0,512,512,0.32827759,data/raw/WHU_Mix_cities/dunedin/image/dunedin_654.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_654.tif
+train,dunedin,whu_mix,dunedin_981.tif,0,0,0,0,512,512,0.21481323,data/raw/WHU_Mix_cities/dunedin/image/dunedin_981.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_981.tif
+train,dunedin,whu_mix,dunedin_317.tif,0,0,0,0,512,512,0.18722916,data/raw/WHU_Mix_cities/dunedin/image/dunedin_317.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_317.tif
+train,dunedin,whu_mix,dunedin_1263.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1263.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1263.tif
+train,dunedin,whu_mix,dunedin_350.tif,0,0,0,0,512,512,0.01673126,data/raw/WHU_Mix_cities/dunedin/image/dunedin_350.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_350.tif
+train,dunedin,whu_mix,dunedin_52.tif,0,0,0,0,512,512,0.06364822,data/raw/WHU_Mix_cities/dunedin/image/dunedin_52.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_52.tif
+train,dunedin,whu_mix,dunedin_149.tif,0,0,0,0,512,512,0.07157135,data/raw/WHU_Mix_cities/dunedin/image/dunedin_149.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_149.tif
+train,dunedin,whu_mix,dunedin_791.tif,0,0,0,0,512,512,0.18180466,data/raw/WHU_Mix_cities/dunedin/image/dunedin_791.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_791.tif
+train,dunedin,whu_mix,dunedin_872.tif,0,0,0,0,512,512,0.18267822,data/raw/WHU_Mix_cities/dunedin/image/dunedin_872.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_872.tif
+train,dunedin,whu_mix,dunedin_1002.tif,0,0,0,0,512,512,0.19144058,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1002.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1002.tif
+train,dunedin,whu_mix,dunedin_736.tif,0,0,0,0,512,512,0.26854324,data/raw/WHU_Mix_cities/dunedin/image/dunedin_736.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_736.tif
+train,dunedin,whu_mix,dunedin_789.tif,0,0,0,0,512,512,0.22666550,data/raw/WHU_Mix_cities/dunedin/image/dunedin_789.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_789.tif
+train,dunedin,whu_mix,dunedin_1192.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1192.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1192.tif
+train,dunedin,whu_mix,dunedin_65.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_65.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_65.tif
+train,dunedin,whu_mix,dunedin_979.tif,0,0,0,0,512,512,0.18479538,data/raw/WHU_Mix_cities/dunedin/image/dunedin_979.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_979.tif
+train,dunedin,whu_mix,dunedin_22.tif,0,0,0,0,512,512,0.00419617,data/raw/WHU_Mix_cities/dunedin/image/dunedin_22.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_22.tif
+train,dunedin,whu_mix,dunedin_950.tif,0,0,0,0,512,512,0.28207016,data/raw/WHU_Mix_cities/dunedin/image/dunedin_950.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_950.tif
+train,dunedin,whu_mix,dunedin_1189.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1189.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1189.tif
+train,dunedin,whu_mix,dunedin_1257.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1257.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1257.tif
+train,dunedin,whu_mix,dunedin_740.tif,0,0,0,0,512,512,0.16292572,data/raw/WHU_Mix_cities/dunedin/image/dunedin_740.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_740.tif
+train,dunedin,whu_mix,dunedin_214.tif,0,0,0,0,512,512,0.02482986,data/raw/WHU_Mix_cities/dunedin/image/dunedin_214.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_214.tif
+train,dunedin,whu_mix,dunedin_987.tif,0,0,0,0,512,512,0.26502609,data/raw/WHU_Mix_cities/dunedin/image/dunedin_987.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_987.tif
+train,dunedin,whu_mix,dunedin_1107.tif,0,0,0,0,512,512,0.31395721,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1107.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1107.tif
+train,dunedin,whu_mix,dunedin_268.tif,0,0,0,0,512,512,0.22705841,data/raw/WHU_Mix_cities/dunedin/image/dunedin_268.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_268.tif
+train,dunedin,whu_mix,dunedin_1115.tif,0,0,0,0,512,512,0.01502991,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1115.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1115.tif
+train,dunedin,whu_mix,dunedin_241.tif,0,0,0,0,512,512,0.15723038,data/raw/WHU_Mix_cities/dunedin/image/dunedin_241.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_241.tif
+train,dunedin,whu_mix,dunedin_835.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_835.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_835.tif
+train,dunedin,whu_mix,dunedin_224.tif,0,0,0,0,512,512,0.08791351,data/raw/WHU_Mix_cities/dunedin/image/dunedin_224.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_224.tif
+train,dunedin,whu_mix,dunedin_535.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_535.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_535.tif
+train,dunedin,whu_mix,dunedin_133.tif,0,0,0,0,512,512,0.05780792,data/raw/WHU_Mix_cities/dunedin/image/dunedin_133.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_133.tif
+train,dunedin,whu_mix,dunedin_79.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_79.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_79.tif
+train,dunedin,whu_mix,dunedin_1045.tif,0,0,0,0,512,512,0.28282547,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1045.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1045.tif
+train,dunedin,whu_mix,dunedin_693.tif,0,0,0,0,512,512,0.51791000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_693.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_693.tif
+train,dunedin,whu_mix,dunedin_361.tif,0,0,0,0,512,512,0.22687912,data/raw/WHU_Mix_cities/dunedin/image/dunedin_361.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_361.tif
+train,dunedin,whu_mix,dunedin_451.tif,0,0,0,0,512,512,0.23215866,data/raw/WHU_Mix_cities/dunedin/image/dunedin_451.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_451.tif
+train,dunedin,whu_mix,dunedin_1151.tif,0,0,0,0,512,512,0.00488281,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1151.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1151.tif
+train,dunedin,whu_mix,dunedin_265.tif,0,0,0,0,512,512,0.15191269,data/raw/WHU_Mix_cities/dunedin/image/dunedin_265.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_265.tif
+train,dunedin,whu_mix,dunedin_1091.tif,0,0,0,0,512,512,0.15049362,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1091.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1091.tif
+train,dunedin,whu_mix,dunedin_473.tif,0,0,0,0,512,512,0.14487076,data/raw/WHU_Mix_cities/dunedin/image/dunedin_473.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_473.tif
+train,dunedin,whu_mix,dunedin_166.tif,0,0,0,0,512,512,0.15795517,data/raw/WHU_Mix_cities/dunedin/image/dunedin_166.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_166.tif
+train,dunedin,whu_mix,dunedin_815.tif,0,0,0,0,512,512,0.10490036,data/raw/WHU_Mix_cities/dunedin/image/dunedin_815.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_815.tif
+train,dunedin,whu_mix,dunedin_564.tif,0,0,0,0,512,512,0.04082489,data/raw/WHU_Mix_cities/dunedin/image/dunedin_564.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_564.tif
+train,dunedin,whu_mix,dunedin_552.tif,0,0,0,0,512,512,0.12313461,data/raw/WHU_Mix_cities/dunedin/image/dunedin_552.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_552.tif
+train,dunedin,whu_mix,dunedin_888.tif,0,0,0,0,512,512,0.24360657,data/raw/WHU_Mix_cities/dunedin/image/dunedin_888.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_888.tif
+train,dunedin,whu_mix,dunedin_860.tif,0,0,0,0,512,512,0.22737503,data/raw/WHU_Mix_cities/dunedin/image/dunedin_860.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_860.tif
+train,dunedin,whu_mix,dunedin_244.tif,0,0,0,0,512,512,0.19954300,data/raw/WHU_Mix_cities/dunedin/image/dunedin_244.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_244.tif
+train,dunedin,whu_mix,dunedin_506.tif,0,0,0,0,512,512,0.05870438,data/raw/WHU_Mix_cities/dunedin/image/dunedin_506.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_506.tif
+train,dunedin,whu_mix,dunedin_1228.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1228.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1228.tif
+train,dunedin,whu_mix,dunedin_657.tif,0,0,0,0,512,512,0.50846100,data/raw/WHU_Mix_cities/dunedin/image/dunedin_657.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_657.tif
+train,dunedin,whu_mix,dunedin_1081.tif,0,0,0,0,512,512,0.43463516,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1081.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1081.tif
+train,dunedin,whu_mix,dunedin_1047.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1047.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1047.tif
+train,dunedin,whu_mix,dunedin_602.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_602.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_602.tif
+train,dunedin,whu_mix,dunedin_1270.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1270.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1270.tif
+train,dunedin,whu_mix,dunedin_752.tif,0,0,0,0,512,512,0.25774765,data/raw/WHU_Mix_cities/dunedin/image/dunedin_752.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_752.tif
+train,dunedin,whu_mix,dunedin_161.tif,0,0,0,0,512,512,0.25068665,data/raw/WHU_Mix_cities/dunedin/image/dunedin_161.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_161.tif
+train,dunedin,whu_mix,dunedin_1092.tif,0,0,0,0,512,512,0.27381516,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1092.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1092.tif
+train,dunedin,whu_mix,dunedin_851.tif,0,0,0,0,512,512,0.12734222,data/raw/WHU_Mix_cities/dunedin/image/dunedin_851.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_851.tif
+train,dunedin,whu_mix,dunedin_973.tif,0,0,0,0,512,512,0.21264267,data/raw/WHU_Mix_cities/dunedin/image/dunedin_973.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_973.tif
+train,dunedin,whu_mix,dunedin_868.tif,0,0,0,0,512,512,0.27016068,data/raw/WHU_Mix_cities/dunedin/image/dunedin_868.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_868.tif
+train,dunedin,whu_mix,dunedin_1120.tif,0,0,0,0,512,512,0.00319290,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1120.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1120.tif
+train,dunedin,whu_mix,dunedin_934.tif,0,0,0,0,512,512,0.12471390,data/raw/WHU_Mix_cities/dunedin/image/dunedin_934.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_934.tif
+train,dunedin,whu_mix,dunedin_940.tif,0,0,0,0,512,512,0.22042465,data/raw/WHU_Mix_cities/dunedin/image/dunedin_940.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_940.tif
+train,dunedin,whu_mix,dunedin_355.tif,0,0,0,0,512,512,0.21889496,data/raw/WHU_Mix_cities/dunedin/image/dunedin_355.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_355.tif
+train,dunedin,whu_mix,dunedin_574.tif,0,0,0,0,512,512,0.11083984,data/raw/WHU_Mix_cities/dunedin/image/dunedin_574.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_574.tif
+train,dunedin,whu_mix,dunedin_820.tif,0,0,0,0,512,512,0.21747971,data/raw/WHU_Mix_cities/dunedin/image/dunedin_820.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_820.tif
+train,dunedin,whu_mix,dunedin_249.tif,0,0,0,0,512,512,0.17328262,data/raw/WHU_Mix_cities/dunedin/image/dunedin_249.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_249.tif
+train,dunedin,whu_mix,dunedin_1197.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1197.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1197.tif
+train,dunedin,whu_mix,dunedin_256.tif,0,0,0,0,512,512,0.30343628,data/raw/WHU_Mix_cities/dunedin/image/dunedin_256.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_256.tif
+train,dunedin,whu_mix,dunedin_237.tif,0,0,0,0,512,512,0.08747482,data/raw/WHU_Mix_cities/dunedin/image/dunedin_237.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_237.tif
+train,dunedin,whu_mix,dunedin_1250.tif,0,0,0,0,512,512,0.02178955,data/raw/WHU_Mix_cities/dunedin/image/dunedin_1250.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_1250.tif
+train,dunedin,whu_mix,dunedin_615.tif,0,0,0,0,512,512,0.12829590,data/raw/WHU_Mix_cities/dunedin/image/dunedin_615.tif,data/raw/WHU_Mix_cities/dunedin/label/dunedin_615.tif
+train,khartoum,whu_mix,khartoum_382.tif,0,0,0,0,512,512,0.09877777,data/raw/WHU_Mix_cities/khartoum/image/khartoum_382.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_382.tif
+train,khartoum,whu_mix,khartoum_820.tif,0,0,0,0,512,512,0.25727463,data/raw/WHU_Mix_cities/khartoum/image/khartoum_820.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_820.tif
+train,khartoum,whu_mix,khartoum_802.tif,0,0,0,0,512,512,0.37505722,data/raw/WHU_Mix_cities/khartoum/image/khartoum_802.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_802.tif
+train,khartoum,whu_mix,khartoum_765.tif,0,0,0,0,512,512,0.37459183,data/raw/WHU_Mix_cities/khartoum/image/khartoum_765.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_765.tif
+train,khartoum,whu_mix,khartoum_164.tif,0,0,0,0,512,512,0.00277328,data/raw/WHU_Mix_cities/khartoum/image/khartoum_164.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_164.tif
+train,khartoum,whu_mix,khartoum_727.tif,0,0,0,0,512,512,0.14840317,data/raw/WHU_Mix_cities/khartoum/image/khartoum_727.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_727.tif
+train,khartoum,whu_mix,khartoum_753.tif,0,0,0,0,512,512,0.06192398,data/raw/WHU_Mix_cities/khartoum/image/khartoum_753.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_753.tif
+train,khartoum,whu_mix,khartoum_274.tif,0,0,0,0,512,512,0.08343887,data/raw/WHU_Mix_cities/khartoum/image/khartoum_274.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_274.tif
+train,khartoum,whu_mix,khartoum_655.tif,0,0,0,0,512,512,0.00606537,data/raw/WHU_Mix_cities/khartoum/image/khartoum_655.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_655.tif
+train,khartoum,whu_mix,khartoum_850.tif,0,0,0,0,512,512,0.22877884,data/raw/WHU_Mix_cities/khartoum/image/khartoum_850.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_850.tif
+train,khartoum,whu_mix,khartoum_355.tif,0,0,0,0,512,512,0.21720123,data/raw/WHU_Mix_cities/khartoum/image/khartoum_355.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_355.tif
+train,khartoum,whu_mix,khartoum_267.tif,0,0,0,0,512,512,0.32723999,data/raw/WHU_Mix_cities/khartoum/image/khartoum_267.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_267.tif
+train,khartoum,whu_mix,khartoum_588.tif,0,0,0,0,512,512,0.22320175,data/raw/WHU_Mix_cities/khartoum/image/khartoum_588.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_588.tif
+train,khartoum,whu_mix,khartoum_505.tif,0,0,0,0,512,512,0.33338547,data/raw/WHU_Mix_cities/khartoum/image/khartoum_505.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_505.tif
+train,khartoum,whu_mix,khartoum_385.tif,0,0,0,0,512,512,0.11664581,data/raw/WHU_Mix_cities/khartoum/image/khartoum_385.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_385.tif
+train,khartoum,whu_mix,khartoum_758.tif,0,0,0,0,512,512,0.09497452,data/raw/WHU_Mix_cities/khartoum/image/khartoum_758.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_758.tif
+train,khartoum,whu_mix,khartoum_807.tif,0,0,0,0,512,512,0.07689667,data/raw/WHU_Mix_cities/khartoum/image/khartoum_807.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_807.tif
+train,khartoum,whu_mix,khartoum_678.tif,0,0,0,0,512,512,0.10632324,data/raw/WHU_Mix_cities/khartoum/image/khartoum_678.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_678.tif
+train,khartoum,whu_mix,khartoum_329.tif,0,0,0,0,512,512,0.05825806,data/raw/WHU_Mix_cities/khartoum/image/khartoum_329.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_329.tif
+train,khartoum,whu_mix,khartoum_804.tif,0,0,0,0,512,512,0.09104538,data/raw/WHU_Mix_cities/khartoum/image/khartoum_804.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_804.tif
+train,khartoum,whu_mix,khartoum_441.tif,0,0,0,0,512,512,0.09717178,data/raw/WHU_Mix_cities/khartoum/image/khartoum_441.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_441.tif
+train,khartoum,whu_mix,khartoum_960.tif,0,0,0,0,512,512,0.00276947,data/raw/WHU_Mix_cities/khartoum/image/khartoum_960.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_960.tif
+train,khartoum,whu_mix,khartoum_888.tif,0,0,0,0,512,512,0.10513306,data/raw/WHU_Mix_cities/khartoum/image/khartoum_888.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_888.tif
+train,khartoum,whu_mix,khartoum_895.tif,0,0,0,0,512,512,0.03326416,data/raw/WHU_Mix_cities/khartoum/image/khartoum_895.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_895.tif
+train,khartoum,whu_mix,khartoum_145.tif,0,0,0,0,512,512,0.10412979,data/raw/WHU_Mix_cities/khartoum/image/khartoum_145.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_145.tif
+train,khartoum,whu_mix,khartoum_340.tif,0,0,0,0,512,512,0.06017303,data/raw/WHU_Mix_cities/khartoum/image/khartoum_340.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_340.tif
+train,khartoum,whu_mix,khartoum_939.tif,0,0,0,0,512,512,0.17864609,data/raw/WHU_Mix_cities/khartoum/image/khartoum_939.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_939.tif
+train,khartoum,whu_mix,khartoum_118.tif,0,0,0,0,512,512,0.35791016,data/raw/WHU_Mix_cities/khartoum/image/khartoum_118.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_118.tif
+train,khartoum,whu_mix,khartoum_922.tif,0,0,0,0,512,512,0.21961212,data/raw/WHU_Mix_cities/khartoum/image/khartoum_922.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_922.tif
+train,khartoum,whu_mix,khartoum_433.tif,0,0,0,0,512,512,0.36397171,data/raw/WHU_Mix_cities/khartoum/image/khartoum_433.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_433.tif
+train,khartoum,whu_mix,khartoum_527.tif,0,0,0,0,512,512,0.26574326,data/raw/WHU_Mix_cities/khartoum/image/khartoum_527.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_527.tif
+train,khartoum,whu_mix,khartoum_383.tif,0,0,0,0,512,512,0.06552124,data/raw/WHU_Mix_cities/khartoum/image/khartoum_383.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_383.tif
+train,khartoum,whu_mix,khartoum_157.tif,0,0,0,0,512,512,0.04066849,data/raw/WHU_Mix_cities/khartoum/image/khartoum_157.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_157.tif
+train,khartoum,whu_mix,khartoum_321.tif,0,0,0,0,512,512,0.12224960,data/raw/WHU_Mix_cities/khartoum/image/khartoum_321.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_321.tif
+train,khartoum,whu_mix,khartoum_689.tif,0,0,0,0,512,512,0.29613495,data/raw/WHU_Mix_cities/khartoum/image/khartoum_689.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_689.tif
+train,khartoum,whu_mix,khartoum_837.tif,0,0,0,0,512,512,0.01498413,data/raw/WHU_Mix_cities/khartoum/image/khartoum_837.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_837.tif
+train,khartoum,whu_mix,khartoum_432.tif,0,0,0,0,512,512,0.34724808,data/raw/WHU_Mix_cities/khartoum/image/khartoum_432.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_432.tif
+train,khartoum,whu_mix,khartoum_322.tif,0,0,0,0,512,512,0.19637680,data/raw/WHU_Mix_cities/khartoum/image/khartoum_322.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_322.tif
+train,khartoum,whu_mix,khartoum_772.tif,0,0,0,0,512,512,0.18405151,data/raw/WHU_Mix_cities/khartoum/image/khartoum_772.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_772.tif
+train,khartoum,whu_mix,khartoum_622.tif,0,0,0,0,512,512,0.34304047,data/raw/WHU_Mix_cities/khartoum/image/khartoum_622.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_622.tif
+train,khartoum,whu_mix,khartoum_522.tif,0,0,0,0,512,512,0.45391846,data/raw/WHU_Mix_cities/khartoum/image/khartoum_522.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_522.tif
+train,khartoum,whu_mix,khartoum_760.tif,0,0,0,0,512,512,0.38232040,data/raw/WHU_Mix_cities/khartoum/image/khartoum_760.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_760.tif
+train,khartoum,whu_mix,khartoum_583.tif,0,0,0,0,512,512,0.23907089,data/raw/WHU_Mix_cities/khartoum/image/khartoum_583.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_583.tif
+train,khartoum,whu_mix,khartoum_245.tif,0,0,0,0,512,512,0.33703613,data/raw/WHU_Mix_cities/khartoum/image/khartoum_245.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_245.tif
+train,khartoum,whu_mix,khartoum_380.tif,0,0,0,0,512,512,0.10833359,data/raw/WHU_Mix_cities/khartoum/image/khartoum_380.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_380.tif
+train,khartoum,whu_mix,khartoum_24.tif,0,0,0,0,512,512,0.23639297,data/raw/WHU_Mix_cities/khartoum/image/khartoum_24.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_24.tif
+train,khartoum,whu_mix,khartoum_357.tif,0,0,0,0,512,512,0.22116089,data/raw/WHU_Mix_cities/khartoum/image/khartoum_357.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_357.tif
+train,khartoum,whu_mix,khartoum_866.tif,0,0,0,0,512,512,0.28063965,data/raw/WHU_Mix_cities/khartoum/image/khartoum_866.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_866.tif
+train,khartoum,whu_mix,khartoum_681.tif,0,0,0,0,512,512,0.06874847,data/raw/WHU_Mix_cities/khartoum/image/khartoum_681.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_681.tif
+train,khartoum,whu_mix,khartoum_660.tif,0,0,0,0,512,512,0.21312332,data/raw/WHU_Mix_cities/khartoum/image/khartoum_660.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_660.tif
+train,khartoum,whu_mix,khartoum_379.tif,0,0,0,0,512,512,0.09577560,data/raw/WHU_Mix_cities/khartoum/image/khartoum_379.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_379.tif
+train,khartoum,whu_mix,khartoum_868.tif,0,0,0,0,512,512,0.40292358,data/raw/WHU_Mix_cities/khartoum/image/khartoum_868.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_868.tif
+train,khartoum,whu_mix,khartoum_704.tif,0,0,0,0,512,512,0.01042175,data/raw/WHU_Mix_cities/khartoum/image/khartoum_704.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_704.tif
+train,khartoum,whu_mix,khartoum_554.tif,0,0,0,0,512,512,0.06914902,data/raw/WHU_Mix_cities/khartoum/image/khartoum_554.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_554.tif
+train,khartoum,whu_mix,khartoum_703.tif,0,0,0,0,512,512,0.01693726,data/raw/WHU_Mix_cities/khartoum/image/khartoum_703.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_703.tif
+train,khartoum,whu_mix,khartoum_525.tif,0,0,0,0,512,512,0.03223038,data/raw/WHU_Mix_cities/khartoum/image/khartoum_525.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_525.tif
+train,khartoum,whu_mix,khartoum_487.tif,0,0,0,0,512,512,0.27280807,data/raw/WHU_Mix_cities/khartoum/image/khartoum_487.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_487.tif
+train,khartoum,whu_mix,khartoum_981.tif,0,0,0,0,512,512,0.07458878,data/raw/WHU_Mix_cities/khartoum/image/khartoum_981.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_981.tif
+train,khartoum,whu_mix,khartoum_239.tif,0,0,0,0,512,512,0.29026794,data/raw/WHU_Mix_cities/khartoum/image/khartoum_239.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_239.tif
+train,khartoum,whu_mix,khartoum_631.tif,0,0,0,0,512,512,0.10605240,data/raw/WHU_Mix_cities/khartoum/image/khartoum_631.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_631.tif
+train,khartoum,whu_mix,khartoum_617.tif,0,0,0,0,512,512,0.41661453,data/raw/WHU_Mix_cities/khartoum/image/khartoum_617.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_617.tif
+train,khartoum,whu_mix,khartoum_193.tif,0,0,0,0,512,512,0.03021240,data/raw/WHU_Mix_cities/khartoum/image/khartoum_193.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_193.tif
+train,khartoum,whu_mix,khartoum_876.tif,0,0,0,0,512,512,0.13465881,data/raw/WHU_Mix_cities/khartoum/image/khartoum_876.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_876.tif
+train,khartoum,whu_mix,khartoum_136.tif,0,0,0,0,512,512,0.02820587,data/raw/WHU_Mix_cities/khartoum/image/khartoum_136.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_136.tif
+train,khartoum,whu_mix,khartoum_211.tif,0,0,0,0,512,512,0.02673721,data/raw/WHU_Mix_cities/khartoum/image/khartoum_211.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_211.tif
+train,khartoum,whu_mix,khartoum_255.tif,0,0,0,0,512,512,0.08910370,data/raw/WHU_Mix_cities/khartoum/image/khartoum_255.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_255.tif
+train,khartoum,whu_mix,khartoum_745.tif,0,0,0,0,512,512,0.08091736,data/raw/WHU_Mix_cities/khartoum/image/khartoum_745.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_745.tif
+train,khartoum,whu_mix,khartoum_261.tif,0,0,0,0,512,512,0.15113068,data/raw/WHU_Mix_cities/khartoum/image/khartoum_261.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_261.tif
+train,khartoum,whu_mix,khartoum_910.tif,0,0,0,0,512,512,0.39908218,data/raw/WHU_Mix_cities/khartoum/image/khartoum_910.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_910.tif
+train,khartoum,whu_mix,khartoum_80.tif,0,0,0,0,512,512,0.01445007,data/raw/WHU_Mix_cities/khartoum/image/khartoum_80.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_80.tif
+train,khartoum,whu_mix,khartoum_549.tif,0,0,0,0,512,512,0.19889450,data/raw/WHU_Mix_cities/khartoum/image/khartoum_549.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_549.tif
+train,khartoum,whu_mix,khartoum_715.tif,0,0,0,0,512,512,0.18813324,data/raw/WHU_Mix_cities/khartoum/image/khartoum_715.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_715.tif
+train,khartoum,whu_mix,khartoum_155.tif,0,0,0,0,512,512,0.00899506,data/raw/WHU_Mix_cities/khartoum/image/khartoum_155.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_155.tif
+train,khartoum,whu_mix,khartoum_511.tif,0,0,0,0,512,512,0.16712189,data/raw/WHU_Mix_cities/khartoum/image/khartoum_511.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_511.tif
+train,khartoum,whu_mix,khartoum_507.tif,0,0,0,0,512,512,0.37354279,data/raw/WHU_Mix_cities/khartoum/image/khartoum_507.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_507.tif
+train,khartoum,whu_mix,khartoum_931.tif,0,0,0,0,512,512,0.24137497,data/raw/WHU_Mix_cities/khartoum/image/khartoum_931.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_931.tif
+train,khartoum,whu_mix,khartoum_593.tif,0,0,0,0,512,512,0.00577545,data/raw/WHU_Mix_cities/khartoum/image/khartoum_593.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_593.tif
+train,khartoum,whu_mix,khartoum_650.tif,0,0,0,0,512,512,0.10797501,data/raw/WHU_Mix_cities/khartoum/image/khartoum_650.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_650.tif
+train,khartoum,whu_mix,khartoum_363.tif,0,0,0,0,512,512,0.07424164,data/raw/WHU_Mix_cities/khartoum/image/khartoum_363.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_363.tif
+train,khartoum,whu_mix,khartoum_674.tif,0,0,0,0,512,512,0.01670456,data/raw/WHU_Mix_cities/khartoum/image/khartoum_674.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_674.tif
+train,khartoum,whu_mix,khartoum_1008.tif,0,0,0,0,512,512,0.01955795,data/raw/WHU_Mix_cities/khartoum/image/khartoum_1008.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_1008.tif
+train,khartoum,whu_mix,khartoum_933.tif,0,0,0,0,512,512,0.12295914,data/raw/WHU_Mix_cities/khartoum/image/khartoum_933.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_933.tif
+train,khartoum,whu_mix,khartoum_84.tif,0,0,0,0,512,512,0.20895386,data/raw/WHU_Mix_cities/khartoum/image/khartoum_84.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_84.tif
+train,khartoum,whu_mix,khartoum_216.tif,0,0,0,0,512,512,0.03376389,data/raw/WHU_Mix_cities/khartoum/image/khartoum_216.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_216.tif
+train,khartoum,whu_mix,khartoum_801.tif,0,0,0,0,512,512,0.40375519,data/raw/WHU_Mix_cities/khartoum/image/khartoum_801.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_801.tif
+train,khartoum,whu_mix,khartoum_659.tif,0,0,0,0,512,512,0.17057800,data/raw/WHU_Mix_cities/khartoum/image/khartoum_659.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_659.tif
+train,khartoum,whu_mix,khartoum_871.tif,0,0,0,0,512,512,0.36686325,data/raw/WHU_Mix_cities/khartoum/image/khartoum_871.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_871.tif
+train,khartoum,whu_mix,khartoum_999.tif,0,0,0,0,512,512,0.00910950,data/raw/WHU_Mix_cities/khartoum/image/khartoum_999.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_999.tif
+train,khartoum,whu_mix,khartoum_889.tif,0,0,0,0,512,512,0.41044235,data/raw/WHU_Mix_cities/khartoum/image/khartoum_889.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_889.tif
+train,khartoum,whu_mix,khartoum_759.tif,0,0,0,0,512,512,0.31497955,data/raw/WHU_Mix_cities/khartoum/image/khartoum_759.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_759.tif
+train,khartoum,whu_mix,khartoum_458.tif,0,0,0,0,512,512,0.17044830,data/raw/WHU_Mix_cities/khartoum/image/khartoum_458.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_458.tif
+train,khartoum,whu_mix,khartoum_213.tif,0,0,0,0,512,512,0.05001068,data/raw/WHU_Mix_cities/khartoum/image/khartoum_213.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_213.tif
+train,khartoum,whu_mix,khartoum_407.tif,0,0,0,0,512,512,0.36139679,data/raw/WHU_Mix_cities/khartoum/image/khartoum_407.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_407.tif
+train,khartoum,whu_mix,khartoum_561.tif,0,0,0,0,512,512,0.03647614,data/raw/WHU_Mix_cities/khartoum/image/khartoum_561.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_561.tif
+train,khartoum,whu_mix,khartoum_26.tif,0,0,0,0,512,512,0.19667435,data/raw/WHU_Mix_cities/khartoum/image/khartoum_26.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_26.tif
+train,khartoum,whu_mix,khartoum_579.tif,0,0,0,0,512,512,0.02142334,data/raw/WHU_Mix_cities/khartoum/image/khartoum_579.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_579.tif
+train,khartoum,whu_mix,khartoum_1000.tif,0,0,0,0,512,512,0.10499573,data/raw/WHU_Mix_cities/khartoum/image/khartoum_1000.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_1000.tif
+train,khartoum,whu_mix,khartoum_843.tif,0,0,0,0,512,512,0.00384521,data/raw/WHU_Mix_cities/khartoum/image/khartoum_843.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_843.tif
+train,khartoum,whu_mix,khartoum_838.tif,0,0,0,0,512,512,0.09503555,data/raw/WHU_Mix_cities/khartoum/image/khartoum_838.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_838.tif
+train,khartoum,whu_mix,khartoum_950.tif,0,0,0,0,512,512,0.46522903,data/raw/WHU_Mix_cities/khartoum/image/khartoum_950.tif,data/raw/WHU_Mix_cities/khartoum/label/khartoum_950.tif
+train,potsdam,whu_mix,potsdam_995.tif,0,0,0,0,512,512,0.31835938,data/raw/WHU_Mix_cities/potsdam/image/potsdam_995.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_995.tif
+train,potsdam,whu_mix,potsdam_490.tif,0,0,0,0,512,512,0.20492554,data/raw/WHU_Mix_cities/potsdam/image/potsdam_490.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_490.tif
+train,potsdam,whu_mix,potsdam_774.tif,0,0,0,0,512,512,0.32357788,data/raw/WHU_Mix_cities/potsdam/image/potsdam_774.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_774.tif
+train,potsdam,whu_mix,potsdam_132.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_132.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_132.tif
+train,potsdam,whu_mix,potsdam_498.tif,0,0,0,0,512,512,0.21212769,data/raw/WHU_Mix_cities/potsdam/image/potsdam_498.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_498.tif
+train,potsdam,whu_mix,potsdam_93.tif,0,0,0,0,512,512,0.08501053,data/raw/WHU_Mix_cities/potsdam/image/potsdam_93.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_93.tif
+train,potsdam,whu_mix,potsdam_111.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_111.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_111.tif
+train,potsdam,whu_mix,potsdam_887.tif,0,0,0,0,512,512,0.23681641,data/raw/WHU_Mix_cities/potsdam/image/potsdam_887.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_887.tif
+train,potsdam,whu_mix,potsdam_630.tif,0,0,0,0,512,512,0.14110184,data/raw/WHU_Mix_cities/potsdam/image/potsdam_630.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_630.tif
+train,potsdam,whu_mix,potsdam_268.tif,0,0,0,0,512,512,0.34012985,data/raw/WHU_Mix_cities/potsdam/image/potsdam_268.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_268.tif
+train,potsdam,whu_mix,potsdam_856.tif,0,0,0,0,512,512,0.53397369,data/raw/WHU_Mix_cities/potsdam/image/potsdam_856.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_856.tif
+train,potsdam,whu_mix,potsdam_643.tif,0,0,0,0,512,512,0.09361267,data/raw/WHU_Mix_cities/potsdam/image/potsdam_643.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_643.tif
+train,potsdam,whu_mix,potsdam_999.tif,0,0,0,0,512,512,0.00422287,data/raw/WHU_Mix_cities/potsdam/image/potsdam_999.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_999.tif
+train,potsdam,whu_mix,potsdam_612.tif,0,0,0,0,512,512,0.15330505,data/raw/WHU_Mix_cities/potsdam/image/potsdam_612.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_612.tif
+train,potsdam,whu_mix,potsdam_154.tif,0,0,0,0,512,512,0.05410767,data/raw/WHU_Mix_cities/potsdam/image/potsdam_154.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_154.tif
+train,potsdam,whu_mix,potsdam_1161.tif,0,0,0,0,512,512,0.17824554,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1161.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1161.tif
+train,potsdam,whu_mix,potsdam_351.tif,0,0,0,0,512,512,0.22181320,data/raw/WHU_Mix_cities/potsdam/image/potsdam_351.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_351.tif
+train,potsdam,whu_mix,potsdam_997.tif,0,0,0,0,512,512,0.05659485,data/raw/WHU_Mix_cities/potsdam/image/potsdam_997.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_997.tif
+train,potsdam,whu_mix,potsdam_1172.tif,0,0,0,0,512,512,0.07797241,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1172.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1172.tif
+train,potsdam,whu_mix,potsdam_537.tif,0,0,0,0,512,512,0.19571686,data/raw/WHU_Mix_cities/potsdam/image/potsdam_537.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_537.tif
+train,potsdam,whu_mix,potsdam_975.tif,0,0,0,0,512,512,0.14819336,data/raw/WHU_Mix_cities/potsdam/image/potsdam_975.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_975.tif
+train,potsdam,whu_mix,potsdam_791.tif,0,0,0,0,512,512,0.53691483,data/raw/WHU_Mix_cities/potsdam/image/potsdam_791.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_791.tif
+train,potsdam,whu_mix,potsdam_940.tif,0,0,0,0,512,512,0.52132797,data/raw/WHU_Mix_cities/potsdam/image/potsdam_940.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_940.tif
+train,potsdam,whu_mix,potsdam_525.tif,0,0,0,0,512,512,0.30680466,data/raw/WHU_Mix_cities/potsdam/image/potsdam_525.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_525.tif
+train,potsdam,whu_mix,potsdam_935.tif,0,0,0,0,512,512,0.26487732,data/raw/WHU_Mix_cities/potsdam/image/potsdam_935.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_935.tif
+train,potsdam,whu_mix,potsdam_0.tif,0,0,0,0,512,512,0.20808411,data/raw/WHU_Mix_cities/potsdam/image/potsdam_0.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_0.tif
+train,potsdam,whu_mix,potsdam_601.tif,0,0,0,0,512,512,0.02514267,data/raw/WHU_Mix_cities/potsdam/image/potsdam_601.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_601.tif
+train,potsdam,whu_mix,potsdam_299.tif,0,0,0,0,512,512,0.32715225,data/raw/WHU_Mix_cities/potsdam/image/potsdam_299.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_299.tif
+train,potsdam,whu_mix,potsdam_479.tif,0,0,0,0,512,512,0.36169434,data/raw/WHU_Mix_cities/potsdam/image/potsdam_479.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_479.tif
+train,potsdam,whu_mix,potsdam_1017.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1017.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1017.tif
+train,potsdam,whu_mix,potsdam_1116.tif,0,0,0,0,512,512,0.28791428,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1116.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1116.tif
+train,potsdam,whu_mix,potsdam_948.tif,0,0,0,0,512,512,0.28561783,data/raw/WHU_Mix_cities/potsdam/image/potsdam_948.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_948.tif
+train,potsdam,whu_mix,potsdam_339.tif,0,0,0,0,512,512,0.12302017,data/raw/WHU_Mix_cities/potsdam/image/potsdam_339.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_339.tif
+train,potsdam,whu_mix,potsdam_894.tif,0,0,0,0,512,512,0.12082672,data/raw/WHU_Mix_cities/potsdam/image/potsdam_894.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_894.tif
+train,potsdam,whu_mix,potsdam_845.tif,0,0,0,0,512,512,0.29455185,data/raw/WHU_Mix_cities/potsdam/image/potsdam_845.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_845.tif
+train,potsdam,whu_mix,potsdam_82.tif,0,0,0,0,512,512,0.18879318,data/raw/WHU_Mix_cities/potsdam/image/potsdam_82.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_82.tif
+train,potsdam,whu_mix,potsdam_278.tif,0,0,0,0,512,512,0.31265259,data/raw/WHU_Mix_cities/potsdam/image/potsdam_278.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_278.tif
+train,potsdam,whu_mix,potsdam_200.tif,0,0,0,0,512,512,0.01033783,data/raw/WHU_Mix_cities/potsdam/image/potsdam_200.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_200.tif
+train,potsdam,whu_mix,potsdam_1060.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1060.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1060.tif
+train,potsdam,whu_mix,potsdam_201.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_201.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_201.tif
+train,potsdam,whu_mix,potsdam_963.tif,0,0,0,0,512,512,0.24489975,data/raw/WHU_Mix_cities/potsdam/image/potsdam_963.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_963.tif
+train,potsdam,whu_mix,potsdam_566.tif,0,0,0,0,512,512,0.03083420,data/raw/WHU_Mix_cities/potsdam/image/potsdam_566.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_566.tif
+train,potsdam,whu_mix,potsdam_1082.tif,0,0,0,0,512,512,0.57246017,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1082.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1082.tif
+train,potsdam,whu_mix,potsdam_1089.tif,0,0,0,0,512,512,0.44610596,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1089.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1089.tif
+train,potsdam,whu_mix,potsdam_741.tif,0,0,0,0,512,512,0.18445587,data/raw/WHU_Mix_cities/potsdam/image/potsdam_741.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_741.tif
+train,potsdam,whu_mix,potsdam_476.tif,0,0,0,0,512,512,0.03082657,data/raw/WHU_Mix_cities/potsdam/image/potsdam_476.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_476.tif
+train,potsdam,whu_mix,potsdam_829.tif,0,0,0,0,512,512,0.18692780,data/raw/WHU_Mix_cities/potsdam/image/potsdam_829.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_829.tif
+train,potsdam,whu_mix,potsdam_772.tif,0,0,0,0,512,512,0.17869949,data/raw/WHU_Mix_cities/potsdam/image/potsdam_772.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_772.tif
+train,potsdam,whu_mix,potsdam_527.tif,0,0,0,0,512,512,0.50930023,data/raw/WHU_Mix_cities/potsdam/image/potsdam_527.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_527.tif
+train,potsdam,whu_mix,potsdam_779.tif,0,0,0,0,512,512,0.09430695,data/raw/WHU_Mix_cities/potsdam/image/potsdam_779.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_779.tif
+train,potsdam,whu_mix,potsdam_1131.tif,0,0,0,0,512,512,0.25417709,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1131.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1131.tif
+train,potsdam,whu_mix,potsdam_1134.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1134.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1134.tif
+train,potsdam,whu_mix,potsdam_664.tif,0,0,0,0,512,512,0.07400894,data/raw/WHU_Mix_cities/potsdam/image/potsdam_664.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_664.tif
+train,potsdam,whu_mix,potsdam_464.tif,0,0,0,0,512,512,0.12934494,data/raw/WHU_Mix_cities/potsdam/image/potsdam_464.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_464.tif
+train,potsdam,whu_mix,potsdam_546.tif,0,0,0,0,512,512,0.25503540,data/raw/WHU_Mix_cities/potsdam/image/potsdam_546.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_546.tif
+train,potsdam,whu_mix,potsdam_118.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_118.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_118.tif
+train,potsdam,whu_mix,potsdam_226.tif,0,0,0,0,512,512,0.28318787,data/raw/WHU_Mix_cities/potsdam/image/potsdam_226.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_226.tif
+train,potsdam,whu_mix,potsdam_521.tif,0,0,0,0,512,512,0.54137421,data/raw/WHU_Mix_cities/potsdam/image/potsdam_521.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_521.tif
+train,potsdam,whu_mix,potsdam_889.tif,0,0,0,0,512,512,0.18735504,data/raw/WHU_Mix_cities/potsdam/image/potsdam_889.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_889.tif
+train,potsdam,whu_mix,potsdam_61.tif,0,0,0,0,512,512,0.24609375,data/raw/WHU_Mix_cities/potsdam/image/potsdam_61.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_61.tif
+train,potsdam,whu_mix,potsdam_408.tif,0,0,0,0,512,512,0.06101227,data/raw/WHU_Mix_cities/potsdam/image/potsdam_408.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_408.tif
+train,potsdam,whu_mix,potsdam_169.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_169.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_169.tif
+train,potsdam,whu_mix,potsdam_979.tif,0,0,0,0,512,512,0.00402832,data/raw/WHU_Mix_cities/potsdam/image/potsdam_979.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_979.tif
+train,potsdam,whu_mix,potsdam_765.tif,0,0,0,0,512,512,0.11631775,data/raw/WHU_Mix_cities/potsdam/image/potsdam_765.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_765.tif
+train,potsdam,whu_mix,potsdam_738.tif,0,0,0,0,512,512,0.56831741,data/raw/WHU_Mix_cities/potsdam/image/potsdam_738.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_738.tif
+train,potsdam,whu_mix,potsdam_7.tif,0,0,0,0,512,512,0.18808746,data/raw/WHU_Mix_cities/potsdam/image/potsdam_7.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_7.tif
+train,potsdam,whu_mix,potsdam_157.tif,0,0,0,0,512,512,0.19491959,data/raw/WHU_Mix_cities/potsdam/image/potsdam_157.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_157.tif
+train,potsdam,whu_mix,potsdam_722.tif,0,0,0,0,512,512,0.16887283,data/raw/WHU_Mix_cities/potsdam/image/potsdam_722.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_722.tif
+train,potsdam,whu_mix,potsdam_283.tif,0,0,0,0,512,512,0.10475922,data/raw/WHU_Mix_cities/potsdam/image/potsdam_283.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_283.tif
+train,potsdam,whu_mix,potsdam_381.tif,0,0,0,0,512,512,0.19220734,data/raw/WHU_Mix_cities/potsdam/image/potsdam_381.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_381.tif
+train,potsdam,whu_mix,potsdam_678.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_678.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_678.tif
+train,potsdam,whu_mix,potsdam_654.tif,0,0,0,0,512,512,0.31101227,data/raw/WHU_Mix_cities/potsdam/image/potsdam_654.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_654.tif
+train,potsdam,whu_mix,potsdam_981.tif,0,0,0,0,512,512,0.46845627,data/raw/WHU_Mix_cities/potsdam/image/potsdam_981.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_981.tif
+train,potsdam,whu_mix,potsdam_425.tif,0,0,0,0,512,512,0.14247894,data/raw/WHU_Mix_cities/potsdam/image/potsdam_425.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_425.tif
+train,potsdam,whu_mix,potsdam_914.tif,0,0,0,0,512,512,0.27355576,data/raw/WHU_Mix_cities/potsdam/image/potsdam_914.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_914.tif
+train,potsdam,whu_mix,potsdam_510.tif,0,0,0,0,512,512,0.40667725,data/raw/WHU_Mix_cities/potsdam/image/potsdam_510.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_510.tif
+train,potsdam,whu_mix,potsdam_439.tif,0,0,0,0,512,512,0.03678513,data/raw/WHU_Mix_cities/potsdam/image/potsdam_439.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_439.tif
+train,potsdam,whu_mix,potsdam_1127.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1127.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1127.tif
+train,potsdam,whu_mix,potsdam_208.tif,0,0,0,0,512,512,0.28120422,data/raw/WHU_Mix_cities/potsdam/image/potsdam_208.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_208.tif
+train,potsdam,whu_mix,potsdam_183.tif,0,0,0,0,512,512,0.24095535,data/raw/WHU_Mix_cities/potsdam/image/potsdam_183.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_183.tif
+train,potsdam,whu_mix,potsdam_1066.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1066.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1066.tif
+train,potsdam,whu_mix,potsdam_313.tif,0,0,0,0,512,512,0.20832825,data/raw/WHU_Mix_cities/potsdam/image/potsdam_313.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_313.tif
+train,potsdam,whu_mix,potsdam_1019.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1019.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1019.tif
+train,potsdam,whu_mix,potsdam_591.tif,0,0,0,0,512,512,0.04419708,data/raw/WHU_Mix_cities/potsdam/image/potsdam_591.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_591.tif
+train,potsdam,whu_mix,potsdam_551.tif,0,0,0,0,512,512,0.59881592,data/raw/WHU_Mix_cities/potsdam/image/potsdam_551.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_551.tif
+train,potsdam,whu_mix,potsdam_19.tif,0,0,0,0,512,512,0.14921570,data/raw/WHU_Mix_cities/potsdam/image/potsdam_19.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_19.tif
+train,potsdam,whu_mix,potsdam_909.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_909.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_909.tif
+train,potsdam,whu_mix,potsdam_177.tif,0,0,0,0,512,512,0.03548431,data/raw/WHU_Mix_cities/potsdam/image/potsdam_177.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_177.tif
+train,potsdam,whu_mix,potsdam_1004.tif,0,0,0,0,512,512,0.28294373,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1004.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1004.tif
+train,potsdam,whu_mix,potsdam_1072.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1072.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1072.tif
+train,potsdam,whu_mix,potsdam_715.tif,0,0,0,0,512,512,0.26993942,data/raw/WHU_Mix_cities/potsdam/image/potsdam_715.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_715.tif
+train,potsdam,whu_mix,potsdam_636.tif,0,0,0,0,512,512,0.03062439,data/raw/WHU_Mix_cities/potsdam/image/potsdam_636.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_636.tif
+train,potsdam,whu_mix,potsdam_1061.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_1061.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_1061.tif
+train,potsdam,whu_mix,potsdam_189.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/potsdam/image/potsdam_189.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_189.tif
+train,potsdam,whu_mix,potsdam_107.tif,0,0,0,0,512,512,0.23315811,data/raw/WHU_Mix_cities/potsdam/image/potsdam_107.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_107.tif
+train,potsdam,whu_mix,potsdam_875.tif,0,0,0,0,512,512,0.03069687,data/raw/WHU_Mix_cities/potsdam/image/potsdam_875.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_875.tif
+train,potsdam,whu_mix,potsdam_306.tif,0,0,0,0,512,512,0.31805801,data/raw/WHU_Mix_cities/potsdam/image/potsdam_306.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_306.tif
+train,potsdam,whu_mix,potsdam_903.tif,0,0,0,0,512,512,0.20496750,data/raw/WHU_Mix_cities/potsdam/image/potsdam_903.tif,data/raw/WHU_Mix_cities/potsdam/label/potsdam_903.tif
+train,wuxi,whu_mix,wuxi_403.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_403.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_403.tif
+train,wuxi,whu_mix,wuxi_1305.tif,0,0,0,0,512,512,0.27370071,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1305.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1305.tif
+train,wuxi,whu_mix,wuxi_1355.tif,0,0,0,0,512,512,0.21219254,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1355.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1355.tif
+train,wuxi,whu_mix,wuxi_609.tif,0,0,0,0,512,512,0.13817978,data/raw/WHU_Mix_cities/wuxi/image/wuxi_609.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_609.tif
+train,wuxi,whu_mix,wuxi_371.tif,0,0,0,0,512,512,0.00010681,data/raw/WHU_Mix_cities/wuxi/image/wuxi_371.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_371.tif
+train,wuxi,whu_mix,wuxi_1277.tif,0,0,0,0,512,512,0.30725861,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1277.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1277.tif
+train,wuxi,whu_mix,wuxi_439.tif,0,0,0,0,512,512,0.13357925,data/raw/WHU_Mix_cities/wuxi/image/wuxi_439.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_439.tif
+train,wuxi,whu_mix,wuxi_1166.tif,0,0,0,0,512,512,0.18452072,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1166.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1166.tif
+train,wuxi,whu_mix,wuxi_674.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_674.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_674.tif
+train,wuxi,whu_mix,wuxi_944.tif,0,0,0,0,512,512,0.14405060,data/raw/WHU_Mix_cities/wuxi/image/wuxi_944.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_944.tif
+train,wuxi,whu_mix,wuxi_877.tif,0,0,0,0,512,512,0.11934280,data/raw/WHU_Mix_cities/wuxi/image/wuxi_877.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_877.tif
+train,wuxi,whu_mix,wuxi_482.tif,0,0,0,0,512,512,0.11775970,data/raw/WHU_Mix_cities/wuxi/image/wuxi_482.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_482.tif
+train,wuxi,whu_mix,wuxi_491.tif,0,0,0,0,512,512,0.07965088,data/raw/WHU_Mix_cities/wuxi/image/wuxi_491.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_491.tif
+train,wuxi,whu_mix,wuxi_355.tif,0,0,0,0,512,512,0.09492874,data/raw/WHU_Mix_cities/wuxi/image/wuxi_355.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_355.tif
+train,wuxi,whu_mix,wuxi_1312.tif,0,0,0,0,512,512,0.07089615,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1312.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1312.tif
+train,wuxi,whu_mix,wuxi_748.tif,0,0,0,0,512,512,0.14817047,data/raw/WHU_Mix_cities/wuxi/image/wuxi_748.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_748.tif
+train,wuxi,whu_mix,wuxi_979.tif,0,0,0,0,512,512,0.01414871,data/raw/WHU_Mix_cities/wuxi/image/wuxi_979.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_979.tif
+train,wuxi,whu_mix,wuxi_783.tif,0,0,0,0,512,512,0.34954071,data/raw/WHU_Mix_cities/wuxi/image/wuxi_783.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_783.tif
+train,wuxi,whu_mix,wuxi_261.tif,0,0,0,0,512,512,0.20792770,data/raw/WHU_Mix_cities/wuxi/image/wuxi_261.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_261.tif
+train,wuxi,whu_mix,wuxi_1241.tif,0,0,0,0,512,512,0.24433517,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1241.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1241.tif
+train,wuxi,whu_mix,wuxi_1116.tif,0,0,0,0,512,512,0.10308838,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1116.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1116.tif
+train,wuxi,whu_mix,wuxi_1120.tif,0,0,0,0,512,512,0.03200912,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1120.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1120.tif
+train,wuxi,whu_mix,wuxi_599.tif,0,0,0,0,512,512,0.09369278,data/raw/WHU_Mix_cities/wuxi/image/wuxi_599.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_599.tif
+train,wuxi,whu_mix,wuxi_292.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_292.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_292.tif
+train,wuxi,whu_mix,wuxi_186.tif,0,0,0,0,512,512,0.11453629,data/raw/WHU_Mix_cities/wuxi/image/wuxi_186.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_186.tif
+train,wuxi,whu_mix,wuxi_284.tif,0,0,0,0,512,512,0.19867706,data/raw/WHU_Mix_cities/wuxi/image/wuxi_284.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_284.tif
+train,wuxi,whu_mix,wuxi_269.tif,0,0,0,0,512,512,0.12375641,data/raw/WHU_Mix_cities/wuxi/image/wuxi_269.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_269.tif
+train,wuxi,whu_mix,wuxi_347.tif,0,0,0,0,512,512,0.01168823,data/raw/WHU_Mix_cities/wuxi/image/wuxi_347.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_347.tif
+train,wuxi,whu_mix,wuxi_852.tif,0,0,0,0,512,512,0.13782120,data/raw/WHU_Mix_cities/wuxi/image/wuxi_852.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_852.tif
+train,wuxi,whu_mix,wuxi_681.tif,0,0,0,0,512,512,0.28273773,data/raw/WHU_Mix_cities/wuxi/image/wuxi_681.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_681.tif
+train,wuxi,whu_mix,wuxi_1070.tif,0,0,0,0,512,512,0.17356491,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1070.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1070.tif
+train,wuxi,whu_mix,wuxi_612.tif,0,0,0,0,512,512,0.18714142,data/raw/WHU_Mix_cities/wuxi/image/wuxi_612.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_612.tif
+train,wuxi,whu_mix,wuxi_592.tif,0,0,0,0,512,512,0.11877060,data/raw/WHU_Mix_cities/wuxi/image/wuxi_592.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_592.tif
+train,wuxi,whu_mix,wuxi_584.tif,0,0,0,0,512,512,0.23304749,data/raw/WHU_Mix_cities/wuxi/image/wuxi_584.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_584.tif
+train,wuxi,whu_mix,wuxi_1121.tif,0,0,0,0,512,512,0.24751282,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1121.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1121.tif
+train,wuxi,whu_mix,wuxi_1078.tif,0,0,0,0,512,512,0.15640259,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1078.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1078.tif
+train,wuxi,whu_mix,wuxi_257.tif,0,0,0,0,512,512,0.13244247,data/raw/WHU_Mix_cities/wuxi/image/wuxi_257.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_257.tif
+train,wuxi,whu_mix,wuxi_680.tif,0,0,0,0,512,512,0.25158310,data/raw/WHU_Mix_cities/wuxi/image/wuxi_680.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_680.tif
+train,wuxi,whu_mix,wuxi_17.tif,0,0,0,0,512,512,0.36643600,data/raw/WHU_Mix_cities/wuxi/image/wuxi_17.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_17.tif
+train,wuxi,whu_mix,wuxi_776.tif,0,0,0,0,512,512,0.05226898,data/raw/WHU_Mix_cities/wuxi/image/wuxi_776.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_776.tif
+train,wuxi,whu_mix,wuxi_85.tif,0,0,0,0,512,512,0.18843460,data/raw/WHU_Mix_cities/wuxi/image/wuxi_85.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_85.tif
+train,wuxi,whu_mix,wuxi_1133.tif,0,0,0,0,512,512,0.22163391,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1133.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1133.tif
+train,wuxi,whu_mix,wuxi_1320.tif,0,0,0,0,512,512,0.02194595,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1320.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1320.tif
+train,wuxi,whu_mix,wuxi_1243.tif,0,0,0,0,512,512,0.39072418,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1243.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1243.tif
+train,wuxi,whu_mix,wuxi_970.tif,0,0,0,0,512,512,0.14958572,data/raw/WHU_Mix_cities/wuxi/image/wuxi_970.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_970.tif
+train,wuxi,whu_mix,wuxi_430.tif,0,0,0,0,512,512,0.29924011,data/raw/WHU_Mix_cities/wuxi/image/wuxi_430.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_430.tif
+train,wuxi,whu_mix,wuxi_319.tif,0,0,0,0,512,512,0.10313797,data/raw/WHU_Mix_cities/wuxi/image/wuxi_319.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_319.tif
+train,wuxi,whu_mix,wuxi_1173.tif,0,0,0,0,512,512,0.15319824,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1173.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1173.tif
+train,wuxi,whu_mix,wuxi_283.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_283.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_283.tif
+train,wuxi,whu_mix,wuxi_123.tif,0,0,0,0,512,512,0.33600998,data/raw/WHU_Mix_cities/wuxi/image/wuxi_123.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_123.tif
+train,wuxi,whu_mix,wuxi_995.tif,0,0,0,0,512,512,0.14961624,data/raw/WHU_Mix_cities/wuxi/image/wuxi_995.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_995.tif
+train,wuxi,whu_mix,wuxi_341.tif,0,0,0,0,512,512,0.40104294,data/raw/WHU_Mix_cities/wuxi/image/wuxi_341.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_341.tif
+train,wuxi,whu_mix,wuxi_1321.tif,0,0,0,0,512,512,0.32421112,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1321.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1321.tif
+train,wuxi,whu_mix,wuxi_868.tif,0,0,0,0,512,512,0.03348541,data/raw/WHU_Mix_cities/wuxi/image/wuxi_868.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_868.tif
+train,wuxi,whu_mix,wuxi_930.tif,0,0,0,0,512,512,0.34169388,data/raw/WHU_Mix_cities/wuxi/image/wuxi_930.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_930.tif
+train,wuxi,whu_mix,wuxi_1092.tif,0,0,0,0,512,512,0.25478363,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1092.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1092.tif
+train,wuxi,whu_mix,wuxi_310.tif,0,0,0,0,512,512,0.13226700,data/raw/WHU_Mix_cities/wuxi/image/wuxi_310.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_310.tif
+train,wuxi,whu_mix,wuxi_784.tif,0,0,0,0,512,512,0.11529541,data/raw/WHU_Mix_cities/wuxi/image/wuxi_784.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_784.tif
+train,wuxi,whu_mix,wuxi_948.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_948.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_948.tif
+train,wuxi,whu_mix,wuxi_843.tif,0,0,0,0,512,512,0.13638306,data/raw/WHU_Mix_cities/wuxi/image/wuxi_843.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_843.tif
+train,wuxi,whu_mix,wuxi_454.tif,0,0,0,0,512,512,0.39730453,data/raw/WHU_Mix_cities/wuxi/image/wuxi_454.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_454.tif
+train,wuxi,whu_mix,wuxi_957.tif,0,0,0,0,512,512,0.22100067,data/raw/WHU_Mix_cities/wuxi/image/wuxi_957.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_957.tif
+train,wuxi,whu_mix,wuxi_1065.tif,0,0,0,0,512,512,0.14686584,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1065.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1065.tif
+train,wuxi,whu_mix,wuxi_590.tif,0,0,0,0,512,512,0.17842484,data/raw/WHU_Mix_cities/wuxi/image/wuxi_590.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_590.tif
+train,wuxi,whu_mix,wuxi_440.tif,0,0,0,0,512,512,0.37168121,data/raw/WHU_Mix_cities/wuxi/image/wuxi_440.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_440.tif
+train,wuxi,whu_mix,wuxi_82.tif,0,0,0,0,512,512,0.22555542,data/raw/WHU_Mix_cities/wuxi/image/wuxi_82.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_82.tif
+train,wuxi,whu_mix,wuxi_1018.tif,0,0,0,0,512,512,0.15933228,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1018.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1018.tif
+train,wuxi,whu_mix,wuxi_1115.tif,0,0,0,0,512,512,0.18691254,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1115.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1115.tif
+train,wuxi,whu_mix,wuxi_71.tif,0,0,0,0,512,512,0.16365433,data/raw/WHU_Mix_cities/wuxi/image/wuxi_71.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_71.tif
+train,wuxi,whu_mix,wuxi_836.tif,0,0,0,0,512,512,0.13246155,data/raw/WHU_Mix_cities/wuxi/image/wuxi_836.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_836.tif
+train,wuxi,whu_mix,wuxi_1304.tif,0,0,0,0,512,512,0.17071152,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1304.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1304.tif
+train,wuxi,whu_mix,wuxi_1208.tif,0,0,0,0,512,512,0.15091324,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1208.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1208.tif
+train,wuxi,whu_mix,wuxi_971.tif,0,0,0,0,512,512,0.28480148,data/raw/WHU_Mix_cities/wuxi/image/wuxi_971.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_971.tif
+train,wuxi,whu_mix,wuxi_991.tif,0,0,0,0,512,512,0.22689438,data/raw/WHU_Mix_cities/wuxi/image/wuxi_991.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_991.tif
+train,wuxi,whu_mix,wuxi_364.tif,0,0,0,0,512,512,0.22076416,data/raw/WHU_Mix_cities/wuxi/image/wuxi_364.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_364.tif
+train,wuxi,whu_mix,wuxi_1276.tif,0,0,0,0,512,512,0.29013443,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1276.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1276.tif
+train,wuxi,whu_mix,wuxi_855.tif,0,0,0,0,512,512,0.19963455,data/raw/WHU_Mix_cities/wuxi/image/wuxi_855.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_855.tif
+train,wuxi,whu_mix,wuxi_251.tif,0,0,0,0,512,512,0.07575607,data/raw/WHU_Mix_cities/wuxi/image/wuxi_251.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_251.tif
+train,wuxi,whu_mix,wuxi_1076.tif,0,0,0,0,512,512,0.24404907,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1076.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1076.tif
+train,wuxi,whu_mix,wuxi_1205.tif,0,0,0,0,512,512,0.14686203,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1205.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1205.tif
+train,wuxi,whu_mix,wuxi_217.tif,0,0,0,0,512,512,0.00282288,data/raw/WHU_Mix_cities/wuxi/image/wuxi_217.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_217.tif
+train,wuxi,whu_mix,wuxi_100.tif,0,0,0,0,512,512,0.32991791,data/raw/WHU_Mix_cities/wuxi/image/wuxi_100.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_100.tif
+train,wuxi,whu_mix,wuxi_236.tif,0,0,0,0,512,512,0.23854065,data/raw/WHU_Mix_cities/wuxi/image/wuxi_236.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_236.tif
+train,wuxi,whu_mix,wuxi_1340.tif,0,0,0,0,512,512,0.17175674,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1340.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1340.tif
+train,wuxi,whu_mix,wuxi_746.tif,0,0,0,0,512,512,0.19644547,data/raw/WHU_Mix_cities/wuxi/image/wuxi_746.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_746.tif
+train,wuxi,whu_mix,wuxi_975.tif,0,0,0,0,512,512,0.05870438,data/raw/WHU_Mix_cities/wuxi/image/wuxi_975.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_975.tif
+train,wuxi,whu_mix,wuxi_326.tif,0,0,0,0,512,512,0.17532730,data/raw/WHU_Mix_cities/wuxi/image/wuxi_326.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_326.tif
+train,wuxi,whu_mix,wuxi_1362.tif,0,0,0,0,512,512,0.10774231,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1362.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1362.tif
+train,wuxi,whu_mix,wuxi_965.tif,0,0,0,0,512,512,0.05185318,data/raw/WHU_Mix_cities/wuxi/image/wuxi_965.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_965.tif
+train,wuxi,whu_mix,wuxi_64.tif,0,0,0,0,512,512,0.11182022,data/raw/WHU_Mix_cities/wuxi/image/wuxi_64.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_64.tif
+train,wuxi,whu_mix,wuxi_683.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Mix_cities/wuxi/image/wuxi_683.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_683.tif
+train,wuxi,whu_mix,wuxi_892.tif,0,0,0,0,512,512,0.08166122,data/raw/WHU_Mix_cities/wuxi/image/wuxi_892.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_892.tif
+train,wuxi,whu_mix,wuxi_462.tif,0,0,0,0,512,512,0.12319565,data/raw/WHU_Mix_cities/wuxi/image/wuxi_462.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_462.tif
+train,wuxi,whu_mix,wuxi_601.tif,0,0,0,0,512,512,0.21536255,data/raw/WHU_Mix_cities/wuxi/image/wuxi_601.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_601.tif
+train,wuxi,whu_mix,wuxi_667.tif,0,0,0,0,512,512,0.09983444,data/raw/WHU_Mix_cities/wuxi/image/wuxi_667.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_667.tif
+train,wuxi,whu_mix,wuxi_372.tif,0,0,0,0,512,512,0.26739883,data/raw/WHU_Mix_cities/wuxi/image/wuxi_372.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_372.tif
+train,wuxi,whu_mix,wuxi_1192.tif,0,0,0,0,512,512,0.11161423,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1192.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1192.tif
+train,wuxi,whu_mix,wuxi_942.tif,0,0,0,0,512,512,0.16057587,data/raw/WHU_Mix_cities/wuxi/image/wuxi_942.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_942.tif
+train,wuxi,whu_mix,wuxi_1376.tif,0,0,0,0,512,512,0.04680252,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1376.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1376.tif
+train,wuxi,whu_mix,wuxi_1283.tif,0,0,0,0,512,512,0.47150421,data/raw/WHU_Mix_cities/wuxi/image/wuxi_1283.tif,data/raw/WHU_Mix_cities/wuxi/label/wuxi_1283.tif
+val,christchurch,whu_aerial,2_1207.tif,0,0,0,0,512,512,0.17863083,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1207.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1207.tif
+val,christchurch,whu_aerial,190.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/190.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/190.tif
+val,christchurch,whu_aerial,2_28.tif,0,0,0,0,512,512,0.12024307,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_28.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_28.tif
+val,christchurch,whu_aerial,2_170.tif,0,0,0,0,512,512,0.20836258,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_170.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_170.tif
+val,christchurch,whu_aerial,2_162.tif,0,0,0,0,512,512,0.26122665,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_162.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_162.tif
+val,christchurch,whu_aerial,2_1310.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1310.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1310.tif
+val,christchurch,whu_aerial,2_1174.tif,0,0,0,0,512,512,0.20828629,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1174.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1174.tif
+val,christchurch,whu_aerial,577.tif,0,0,0,0,512,512,0.27941132,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/577.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/577.tif
+val,christchurch,whu_aerial,2_1117.tif,0,0,0,0,512,512,0.36406708,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1117.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1117.tif
+val,christchurch,whu_aerial,2_821.tif,0,0,0,0,512,512,0.23892212,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_821.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_821.tif
+val,christchurch,whu_aerial,215.tif,0,0,0,0,512,512,0.01977158,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/215.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/215.tif
+val,christchurch,whu_aerial,208.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/208.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/208.tif
+val,christchurch,whu_aerial,2_1141.tif,0,0,0,0,512,512,0.05487061,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1141.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1141.tif
+val,christchurch,whu_aerial,2_1602.tif,0,0,0,0,512,512,0.00040436,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1602.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1602.tif
+val,christchurch,whu_aerial,2_1654.tif,0,0,0,0,512,512,0.18675613,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1654.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1654.tif
+val,christchurch,whu_aerial,429.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/429.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/429.tif
+val,christchurch,whu_aerial,196.tif,0,0,0,0,512,512,0.02005005,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/196.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/196.tif
+val,christchurch,whu_aerial,635.tif,0,0,0,0,512,512,0.00725937,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/635.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/635.tif
+val,christchurch,whu_aerial,2_153.tif,0,0,0,0,512,512,0.08528900,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_153.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_153.tif
+val,christchurch,whu_aerial,576.tif,0,0,0,0,512,512,0.34165955,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/576.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/576.tif
+val,christchurch,whu_aerial,2_812.tif,0,0,0,0,512,512,0.22610092,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_812.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_812.tif
+val,christchurch,whu_aerial,2_1609.tif,0,0,0,0,512,512,0.14112473,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1609.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1609.tif
+val,christchurch,whu_aerial,2_921.tif,0,0,0,0,512,512,0.18433380,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_921.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_921.tif
+val,christchurch,whu_aerial,97.tif,0,0,0,0,512,512,0.01574707,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/97.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/97.tif
+val,christchurch,whu_aerial,2_291.tif,0,0,0,0,512,512,0.01611710,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_291.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_291.tif
+val,christchurch,whu_aerial,121.tif,0,0,0,0,512,512,0.04122925,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/121.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/121.tif
+val,christchurch,whu_aerial,2_1385.tif,0,0,0,0,512,512,0.12221146,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1385.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1385.tif
+val,christchurch,whu_aerial,2_824.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_824.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_824.tif
+val,christchurch,whu_aerial,2_52.tif,0,0,0,0,512,512,0.29507446,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_52.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_52.tif
+val,christchurch,whu_aerial,2_290.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_290.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_290.tif
+val,christchurch,whu_aerial,2_137.tif,0,0,0,0,512,512,0.20632172,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_137.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_137.tif
+val,christchurch,whu_aerial,2_1590.tif,0,0,0,0,512,512,0.00042725,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1590.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1590.tif
+val,christchurch,whu_aerial,2_506.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_506.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_506.tif
+val,christchurch,whu_aerial,2_1173.tif,0,0,0,0,512,512,0.24139023,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1173.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1173.tif
+val,christchurch,whu_aerial,2_1138.tif,0,0,0,0,512,512,0.17580414,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1138.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1138.tif
+val,christchurch,whu_aerial,2_667.tif,0,0,0,0,512,512,0.07884598,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_667.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_667.tif
+val,christchurch,whu_aerial,2_1153.tif,0,0,0,0,512,512,0.16345215,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1153.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1153.tif
+val,christchurch,whu_aerial,2_59.tif,0,0,0,0,512,512,0.29374695,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_59.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_59.tif
+val,christchurch,whu_aerial,2_533.tif,0,0,0,0,512,512,0.01244736,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_533.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_533.tif
+val,christchurch,whu_aerial,2_240.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_240.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_240.tif
+val,christchurch,whu_aerial,258.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/258.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/258.tif
+val,christchurch,whu_aerial,2_96.tif,0,0,0,0,512,512,0.25927734,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_96.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_96.tif
+val,christchurch,whu_aerial,543.tif,0,0,0,0,512,512,0.44023132,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/543.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/543.tif
+val,christchurch,whu_aerial,2_1257.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1257.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1257.tif
+val,christchurch,whu_aerial,2_661.tif,0,0,0,0,512,512,0.21097946,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_661.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_661.tif
+val,christchurch,whu_aerial,2_1087.tif,0,0,0,0,512,512,0.10356903,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1087.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1087.tif
+val,christchurch,whu_aerial,601.tif,0,0,0,0,512,512,0.34816360,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/601.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/601.tif
+val,christchurch,whu_aerial,2_346.tif,0,0,0,0,512,512,0.10415268,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_346.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_346.tif
+val,christchurch,whu_aerial,2_6.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_6.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_6.tif
+val,christchurch,whu_aerial,695.tif,0,0,0,0,512,512,0.20757675,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/695.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/695.tif
+val,christchurch,whu_aerial,2_1505.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1505.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1505.tif
+val,christchurch,whu_aerial,2_1052.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1052.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1052.tif
+val,christchurch,whu_aerial,267.tif,0,0,0,0,512,512,0.11538696,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/267.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/267.tif
+val,christchurch,whu_aerial,2_1637.tif,0,0,0,0,512,512,0.47219086,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1637.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1637.tif
+val,christchurch,whu_aerial,2_332.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_332.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_332.tif
+val,christchurch,whu_aerial,2_1090.tif,0,0,0,0,512,512,0.36238861,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1090.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1090.tif
+val,christchurch,whu_aerial,2_1655.tif,0,0,0,0,512,512,0.19585037,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1655.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1655.tif
+val,christchurch,whu_aerial,2_1169.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1169.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1169.tif
+val,christchurch,whu_aerial,2_938.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_938.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_938.tif
+val,christchurch,whu_aerial,2_610.tif,0,0,0,0,512,512,0.18084717,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_610.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_610.tif
+val,christchurch,whu_aerial,2_1397.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1397.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1397.tif
+val,christchurch,whu_aerial,2_630.tif,0,0,0,0,512,512,0.00400162,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_630.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_630.tif
+val,christchurch,whu_aerial,2_576.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_576.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_576.tif
+val,christchurch,whu_aerial,2_157.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_157.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_157.tif
+val,christchurch,whu_aerial,2_25.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_25.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_25.tif
+val,christchurch,whu_aerial,2_106.tif,0,0,0,0,512,512,0.29496384,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_106.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_106.tif
+val,christchurch,whu_aerial,2_1427.tif,0,0,0,0,512,512,0.31988144,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1427.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1427.tif
+val,christchurch,whu_aerial,535.tif,0,0,0,0,512,512,0.21646881,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/535.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/535.tif
+val,christchurch,whu_aerial,2_17.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_17.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_17.tif
+val,christchurch,whu_aerial,2_14.tif,0,0,0,0,512,512,0.07940674,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_14.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_14.tif
+val,christchurch,whu_aerial,2_970.tif,0,0,0,0,512,512,0.23957443,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_970.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_970.tif
+val,christchurch,whu_aerial,2_665.tif,0,0,0,0,512,512,0.02198792,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_665.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_665.tif
+val,christchurch,whu_aerial,2_260.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_260.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_260.tif
+val,christchurch,whu_aerial,62.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/62.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/62.tif
+val,christchurch,whu_aerial,2_1606.tif,0,0,0,0,512,512,0.08472061,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1606.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1606.tif
+val,christchurch,whu_aerial,2_461.tif,0,0,0,0,512,512,0.00172043,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_461.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_461.tif
+val,christchurch,whu_aerial,2_1002.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1002.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1002.tif
+val,christchurch,whu_aerial,2_1641.tif,0,0,0,0,512,512,0.28561401,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1641.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1641.tif
+val,christchurch,whu_aerial,216.tif,0,0,0,0,512,512,0.04043961,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/216.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/216.tif
+val,christchurch,whu_aerial,2_429.tif,0,0,0,0,512,512,0.22350311,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_429.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_429.tif
+val,christchurch,whu_aerial,2_745.tif,0,0,0,0,512,512,0.12658691,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_745.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_745.tif
+val,christchurch,whu_aerial,2_252.tif,0,0,0,0,512,512,0.28615570,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_252.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_252.tif
+val,christchurch,whu_aerial,2_1040.tif,0,0,0,0,512,512,0.24214172,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1040.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1040.tif
+val,christchurch,whu_aerial,2_1575.tif,0,0,0,0,512,512,0.00003052,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1575.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1575.tif
+val,christchurch,whu_aerial,658.tif,0,0,0,0,512,512,0.30007935,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/658.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/658.tif
+val,christchurch,whu_aerial,2_425.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_425.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_425.tif
+val,christchurch,whu_aerial,2_1580.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1580.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1580.tif
+val,christchurch,whu_aerial,406.tif,0,0,0,0,512,512,0.16512299,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/406.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/406.tif
+val,christchurch,whu_aerial,2_724.tif,0,0,0,0,512,512,0.18262482,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_724.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_724.tif
+val,christchurch,whu_aerial,2_958.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_958.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_958.tif
+val,christchurch,whu_aerial,2_1323.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_1323.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_1323.tif
+val,christchurch,whu_aerial,2_241.tif,0,0,0,0,512,512,0.02765656,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_241.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_241.tif
+val,christchurch,whu_aerial,2_175.tif,0,0,0,0,512,512,0.20367432,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_175.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_175.tif
+val,christchurch,whu_aerial,553.tif,0,0,0,0,512,512,0.13549042,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/553.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/553.tif
+val,christchurch,whu_aerial,2_234.tif,0,0,0,0,512,512,0.21123886,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_234.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_234.tif
+val,christchurch,whu_aerial,8.tif,0,0,0,0,512,512,0.00000000,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/8.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/8.tif
+val,christchurch,whu_aerial,2_845.tif,0,0,0,0,512,512,0.14277267,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_845.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_845.tif
+val,christchurch,whu_aerial,76.tif,0,0,0,0,512,512,0.01036072,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/76.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/76.tif
+val,christchurch,whu_aerial,2_738.tif,0,0,0,0,512,512,0.01102829,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/image/2_738.tif,data/raw/WHU_Building/3. The cropped image tiles and raster labels/test/label/2_738.tif

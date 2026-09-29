@@ -1,0 +1,6 @@
+﻿"seed","iou","ckpt"
+"42","0.8063106447283324","best_sam2_whu_4city_800_20ep_fosmix_mixstyle_s42.pth"
+"43","0.8256085907055355","best_sam2_whu_4city_800_20ep_fosmix_mixstyle_s43.pth"
+"44","0.813677314218274","best_sam2_whu_4city_800_20ep_fosmix_mixstyle_s44.pth"
+"45","0.7931112536594866","best_sam2_whu_4city_800_20ep_fosmix_mixstyle_s45.pth"
+"46","0.8132827876422792","best_sam2_whu_4city_800_20ep_fosmix_mixstyle_s46.pth"

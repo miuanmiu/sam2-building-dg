@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.log
+*.pth
+.venv/
+.idea/
+.env
+wandb/
+logs/
+checkpoints/
+models/sam2/*.pt
+data/raw/
+data/images/
+temp_*/
+results/
+outputs/
+lightning_logs/
