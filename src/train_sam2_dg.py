@@ -1,9 +1,5 @@
-﻿# -*- coding: utf-8 -*-
-"""DSU / FACT 鍚屽崗璁缁冿紙SAM2 tiny + FPN锛? 鍩?800 鎴?LODO锛夈€?
-鐢ㄦ硶绀轰緥锛堢敱 run_all_planned.ps1 璋冪敤锛夛細
-  python train_sam2_dg.py --dg dsu --seed 42 --run-name sam2_whu_4city_800_20ep_dsu_s42 ...
+# -*- coding: utf-8 -*-
 
-杈撳嚭涓庝富瀹為獙瀹屽叏涓€鑷达細logs/<run>_training_history.csv銆?logs/<run>_test_generalization.csv銆乥est/resume/epoch 妫€鏌ョ偣銆?"""
 
 import argparse
 import csv
@@ -35,8 +31,6 @@ from src.dg_modules import DSU, FACT  # noqa: E402
 
 
 class DGModel(SAM2Segmentor):
-    """鍦?SAM2Segmentor 涓婂彔鍔?DSU锛堢壒寰佺骇锛夋垨 FACT锛堣緭鍏ョ骇锛夈€?""
-
     def __init__(self, dg: str = "dsu", **kwargs) -> None:
         super().__init__(**kwargs)
         self.dg_name = dg
@@ -54,7 +48,7 @@ class DGModel(SAM2Segmentor):
 
 
 def parse_arguments() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="SAM2 寰皟璁粌锛圖SU/FACT锛?)
+
     parser.add_argument("--manifest-path", type=Path, required=True)
     parser.add_argument("--eval-manifest-path", type=Path, required=True)
     parser.add_argument("--test-manifest-path", type=Path, default=None)
@@ -85,7 +79,7 @@ def parse_arguments() -> argparse.Namespace:
 def main() -> None:
     args = parse_arguments()
     if args.resume is not None and args.num_workers != 0:
-        raise ValueError("鏂偣缁瑕佹眰 --num-workers 0锛堜繚璇佹壒娆￠『搴忎竴鑷达級銆?)
+        raise ValueError("error")
 
     random.seed(args.seed)
     np.random.seed(args.seed)
@@ -95,7 +89,7 @@ def main() -> None:
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     if device.type != "cuda":
-        raise RuntimeError("闇€瑕?CUDA銆?)
+        raise RuntimeError("error")
 
     resume_path = args.resume
     ckpt_root = args.ckpt_dir if args.ckpt_dir else PROJECT_ROOT / "checkpoints"
@@ -115,7 +109,6 @@ def main() -> None:
         if args.test_manifest_path is not None
         else None
     )
-    print(f"[{args.dg}] 璁粌鏍锋湰锛歿len(train_dataset)} | 璇勪及鏍锋湰锛歿len(eval_dataset)} | seed={args.seed}")
 
     model = DGModel(dg=args.dg, model_name=args.model, finetune_encoder=args.finetune_encoder)
     model.to(device)
@@ -154,15 +147,14 @@ def main() -> None:
                 best_iou_from_file = best_state.get("metrics", {}).get("iou", 0.0)
                 best_val_iou = max(best_val_iou, best_iou_from_file)
             except Exception as exc:
-                print(f"璀﹀憡锛氳鍙栨渶浣虫ā鍨嬩俊鎭け璐ワ紙{exc}锛夛紝娌跨敤鏂偣涓殑 best IoU")
+                pass
         if test_best_path.exists():
             try:
                 tb_state = torch.load(test_best_path, map_location="cpu", weights_only=False)
                 best_test_iou = float(tb_state.get("metrics", {}).get("iou", 0.0))
             except Exception as exc:
-                print(f"璀﹀憡锛氳鍙栨祴璇曢泦鏈€浣虫ā鍨嬩俊鎭け璐ワ紙{exc}锛夛紝娌跨敤 0")
-        print(f"宸蹭粠鏂偣鎭㈠锛歟poch={start_epoch} batch={next_batch} best_iou={best_val_iou:.4f}")
 
+                pass
     history_rows: list[dict] = []
     if history_path.exists():
         with history_path.open("r", encoding="utf-8-sig", newline="") as f:
@@ -173,7 +165,6 @@ def main() -> None:
     def on_interrupt(signum, frame):
         nonlocal interrupted
         interrupted = True
-        print("\n鏀跺埌涓柇淇″彿锛屾鍦ㄤ繚瀛樻柇鐐?..")
 
     signal.signal(signal.SIGINT, on_interrupt)
     start_time = time.time()
@@ -191,7 +182,7 @@ def main() -> None:
             )
             epoch_loss_sum = 0.0
             epoch_sample_count = 0
-            progress = tqdm(loader, desc=f"Epoch {epoch + 1}/{args.epochs}", unit="鎵?)
+            progress = tqdm(loader, desc="epoch")
 
             for batch_idx, (images, masks, _, _) in enumerate(progress):
                 if resume_path is not None and batch_idx < next_batch:
@@ -226,7 +217,6 @@ def main() -> None:
                         epoch_loss_sum, epoch_sample_count, best_val_iou,
                         model, optimizer, scaler, args,
                     )
-                    print(f"鏀跺埌涓柇淇″彿锛屾柇鐐瑰凡淇濆瓨锛氫笅娆′粠 Epoch {epoch + 1} 绗?{batch_idx + 1} 鎵圭户缁€?)
                     break
 
             if interrupted:
@@ -238,7 +228,7 @@ def main() -> None:
                 model, optimizer, scaler, args,
             )
             resume_path = checkpoint_path
-            next_batch = 0  # 淇锛氭柊杞涓嶅啀璺宠繃鍓?next_batch 涓?batch
+            next_batch = 0
 
             train_loss = epoch_loss_sum / max(epoch_sample_count, 1)
             row = {
@@ -269,7 +259,6 @@ def main() -> None:
                         {"model_state_dict": model.state_dict(), "args": vars(args), "metrics": metrics},
                         best_path,
                     )
-                    print(f"鏂扮殑鏈€浣?IoU锛歿best_val_iou:.4f} -> {best_path}")
                 if test_dataset is not None:
                     test_loader = DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers=0)
                     test_metrics = evaluate(model, test_loader, device)
@@ -288,17 +277,15 @@ def main() -> None:
                         if write_header:
                             writer.writeheader()
                         writer.writerow(test_row)
-                    print(f"  [娴嬭瘯闆哴 IoU={test_metrics['iou']:.4f} -> {test_csv.name}")
                     if test_metrics["iou"] > best_test_iou:
                         best_test_iou = test_metrics["iou"]
                         atomic_torch_save(
                             {"epoch": epoch + 1, "model_state_dict": model.state_dict(), "args": vars(args), "metrics": test_metrics},
                             test_best_path,
                         )
-                        print(f"鏂扮殑娴嬭瘯闆嗘渶浣?IoU锛歿best_test_iou:.4f} -> {test_best_path}")
             else:
-                print(f"Epoch {epoch + 1}: loss={train_loss:.4f}锛堟湰杞笉璇勪及锛?)
 
+                pass
             history_rows.append(row)
             history_path.parent.mkdir(parents=True, exist_ok=True)
             with history_path.open("w", encoding="utf-8-sig", newline="") as f:
@@ -309,20 +296,16 @@ def main() -> None:
             if args.save_every_epochs > 0 and (epoch + 1) % args.save_every_epochs == 0:
                 epoch_path = ckpt_root / f"epoch{epoch + 1:03d}_{args.run_name}.pth"
                 atomic_torch_save({"epoch": epoch + 1, "model_state_dict": model.state_dict(), "args": vars(args)}, epoch_path)
-                print(f"宸蹭繚瀛樻湰杞潈閲嶏細{epoch_path.name}")
 
             if interrupted:
-                print("璁粌宸蹭腑鏂紝鏂偣宸蹭繚瀛樸€?)
                 break
 
     finally:
         signal.signal(signal.SIGINT, signal.SIG_DFL)
 
     if interrupted:
-        print("璁粌宸蹭腑鏂紝璺宠繃鏈€缁堣瘎浼般€?)
         return
 
-    print("璁粌瀹屾垚銆?)
 
 
 if __name__ == "__main__":
