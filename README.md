@@ -3,8 +3,11 @@
 Reproducible multi-seed implementation for:
 
 > **Dual-Level Frequency- and Feature-Domain Mixing for SAM 2 Fine-Tuning in
-> Cross-City Building Extraction** (submitted to IEEE Access; anonymous review
-> link: _TODO_)
+> Cross-City Building Extraction** (submitted to IEEE Access)
+
+Repository: <https://github.com/miuanmiu/sam2-building-dg>
+Checkpoints: <https://github.com/miuanmiu/sam2-building-dg/releases/tag/v1.0-checkpoints>
+Anonymous review mirror: _TODO_ (add the anonymous.4open.science link)
 
 All methods fine-tune the SAM 2 tiny image encoder with a lightweight FPN
 segmentation head on 512x512 RGB patches. Training-only augmentations:
